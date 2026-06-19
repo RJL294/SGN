@@ -10,7 +10,11 @@
     "readMins": 3,
     "glyph": "🥪",
     "gradient": "linear-gradient(135deg,#FFC02E,#FF5A36)",
-    "tags": ["community", "kindness"]
+    "tags": ["community", "kindness"],
+    "body": [
+      "It started with a single mason jar by the register at the local hardware store and a hand-written label: \"lunch debt fund.\" Shoppers dropped in their pennies, nickels and the odd folded bill on their way out, and over twelve quiet months it added up to enough to clear the meal debt for every student in the district.",
+      "The best part, organizers say, is what happened next: the jar didn't disappear. Neighbors keep topping it up, turning a one-time gesture into a small, steady safety net so no kid ever has to skip lunch again."
+    ]
   },
   {
     "id": "lost-dog",
@@ -21,7 +25,11 @@
     "hoursAgo": 4,
     "glyph": "🐕",
     "gradient": "linear-gradient(135deg,#1E9E63,#0C7C8C)",
-    "tags": ["animals"]
+    "tags": ["animals"],
+    "body": [
+      "He slipped his leash on a camping trip and vanished into the hills, and his family feared the worst after days of searching turned up nothing. Then, nearly a week later, a familiar scratch came at the front door — forty miles from where he was last seen.",
+      "A little thinner and a lot muddier, he trotted inside, flopped onto his favorite rug and promptly fell asleep, as if a cross-country trek were all in a day's work."
+    ]
   },
   {
     "id": "coral-reef",
@@ -32,7 +40,11 @@
     "hoursAgo": 5,
     "glyph": "🪸",
     "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
-    "tags": ["science", "planet"]
+    "tags": ["science", "planet"],
+    "body": [
+      "Divers grew fragments of healthy coral on underwater frames, then transplanted them piece by piece onto a stretch of reef that had bleached to a ghostly white. Three years on, the structure is a riot of color again, humming with fish that had long since moved away.",
+      "Researchers say the speed of the recovery surprised even them — proof that, given a helping hand, some of the ocean's most fragile places can bounce back faster than anyone dared hope."
+    ]
   },
   {
     "id": "siblings-reunion",
@@ -43,7 +55,11 @@
     "hoursAgo": 6,
     "glyph": "🫂",
     "gradient": "linear-gradient(135deg,#E85D9E,#7A4BC9)",
-    "tags": ["reunions"]
+    "tags": ["reunions"],
+    "body": [
+      "Separated as small children and raised by different families, the two spent decades wondering about each other. A DNA test taken almost on a whim returned a match — and an address barely fifteen minutes down the road.",
+      "They've made up for lost time fast, meeting for coffee most mornings and marveling at all the years they lived so close without knowing it."
+    ]
   },
   {
     "id": "firefighter",
@@ -54,7 +70,11 @@
     "hoursAgo": 1,
     "glyph": "🚒",
     "gradient": "linear-gradient(135deg,#FF5A36,#F2A20C)",
-    "tags": ["heroes"]
+    "tags": ["heroes"],
+    "body": [
+      "He was driving home when he saw the car leave the road and hit the water. Without hesitating he waded in and brought all four passengers to the bank, one by one, as bystanders called for help.",
+      "By the time the ambulances arrived he had quietly returned to his car and driven off. The family is still trying to track him down — they just want to say thank you."
+    ]
   },
   {
     "id": "renewable-100days",
@@ -65,7 +85,11 @@
     "hoursAgo": 3,
     "glyph": "⚡",
     "gradient": "linear-gradient(135deg,#1E9E63,#7CB518)",
-    "tags": ["planet", "science"]
+    "tags": ["planet", "science"],
+    "body": [
+      "For one hundred consecutive days, the national grid drew its electricity entirely from water, wind and sun — the longest unbroken run of fully renewable power the country has ever recorded.",
+      "Engineers credit a wet, windy season and years of patient investment in storage. The milestone, they say, is less a fluke than a glimpse of the ordinary future they're building toward."
+    ]
   },
   {
     "id": "barber-books",
@@ -76,7 +100,11 @@
     "hoursAgo": 4,
     "glyph": "✂️",
     "gradient": "linear-gradient(135deg,#E85D9E,#FFC02E)",
-    "tags": ["kindness", "community"]
+    "tags": ["kindness", "community"],
+    "body": [
+      "Climb into his chair, open a book, and read aloud — that's the only price of admission. The barber listens, nods along, and gently helps with the tricky words while he works the clippers.",
+      "Word spread, and now a shelf of well-worn picture books sits by the mirror. Parents say their kids ask to come back not for the haircut, but for the audience."
+    ]
   },
   {
     "id": "marathon-comeback",
@@ -87,7 +115,11 @@
     "hoursAgo": 5,
     "glyph": "🏅",
     "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
-    "tags": ["comebacks"]
+    "tags": ["comebacks"],
+    "body": [
+      "After the accident, the prognosis was blunt: she might not walk again. She started with a single step between parallel bars, then two, then a slow shuffle down the hospital hallway.",
+      "Years of stubborn, daily effort later, she crossed a marathon finish line under her own power — arms raised, the last runner home, and the loudest cheer of the day."
+    ]
   },
   {
     "id": "shelter-empty",
@@ -99,7 +131,11 @@
     "hoursAgo": 2,
     "glyph": "🐾",
     "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
-    "tags": ["animals", "community"]
+    "tags": ["animals", "community"],
+    "body": [
+      "A weekend adoption drive turned into something the staff had never witnessed: by Sunday evening, every kennel was empty. Volunteers walked the quiet corridors in happy disbelief, then lined up for a photo no one at the shelter had ever been able to take.",
+      "The director was quick to add the bittersweet footnote — empty kennels never stay empty for long — but for one bright weekend, every single animal in their care had somewhere to call home."
+    ]
   },
   {
     "id": "whale-netting",
@@ -111,7 +147,11 @@
     "hoursAgo": 4,
     "glyph": "🐋",
     "gradient": "linear-gradient(135deg,#2B6CB0,#0C7C8C)",
-    "tags": ["animals"]
+    "tags": ["animals"],
+    "body": [
+      "For two careful hours, a small team worked to cut away the fishing net wrapped around the exhausted humpback, slicing through one tangle at a time as the animal held still in the water.",
+      "When the last rope fell away, the whale didn't bolt. It circled the boat once, lifted a fin, and slapped the surface — a farewell the divers swear they'll never forget."
+    ]
   },
   {
     "id": "penguin-colony",
@@ -123,7 +163,11 @@
     "hoursAgo": 7,
     "glyph": "🐧",
     "gradient": "linear-gradient(135deg,#1E9E63,#FFC02E)",
-    "tags": ["science", "animals", "planet"]
+    "tags": ["science", "animals", "planet"],
+    "body": [
+      "Five years ago the colony was shrinking so quickly that researchers feared it might wink out entirely. A protected feeding zone and a crackdown on disturbance gave the birds room to breathe.",
+      "This season's headcount came back the highest on record — roughly double the low point — with a beach full of fuzzy chicks to carry the numbers higher still."
+    ]
   },
   {
     "id": "winter-coats",
@@ -134,7 +178,11 @@
     "hoursAgo": 3,
     "glyph": "🧥",
     "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
-    "tags": ["kindness", "heroes"]
+    "tags": ["kindness", "heroes"],
+    "body": [
+      "He noticed a classmate shivering at the bus stop without a coat, and decided to do something about it. Week by week, he set aside his allowance instead of spending it, keeping the plan a secret.",
+      "By the time the cold really set in, he had enough to buy a warm coat for every kid in his class — and handed them out without a word about who had paid."
+    ]
   },
   {
     "id": "bus-driver",
@@ -145,7 +193,11 @@
     "hoursAgo": 6,
     "glyph": "🚌",
     "gradient": "linear-gradient(135deg,#F2A20C,#FF5A36)",
-    "tags": ["community", "heroes"]
+    "tags": ["community", "heroes"],
+    "body": [
+      "Step aboard her morning route and you'll get a greeting by name, a quick word about your week, and — if it's your day — a cheerful \"happy birthday\" from the driver's seat.",
+      "Regulars say the short ride has become the warmest part of their commute, a rolling living room where strangers turned into neighbors one stop at a time."
+    ]
   },
   {
     "id": "widow-porch",
@@ -156,7 +208,11 @@
     "hoursAgo": 9,
     "glyph": "🔨",
     "gradient": "linear-gradient(135deg,#7CB518,#1E9E63)",
-    "tags": ["community", "heroes", "kindness"]
+    "tags": ["community", "heroes", "kindness"],
+    "body": [
+      "The porch had sagged for years, and she'd quietly stopped using her front door. So the street made a plan: while she was away visiting family, they'd fix it.",
+      "Dozens of neighbors showed up with lumber and tools and worked into the night. She came home to a sturdy new porch, a fresh coat of paint, and a welcome-home banner strung across the rail."
+    ]
   },
   {
     "id": "ai-cancer",
@@ -168,7 +224,11 @@
     "hoursAgo": 2,
     "glyph": "🤖",
     "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
-    "tags": ["good-ai", "science"]
+    "tags": ["good-ai", "science"],
+    "body": [
+      "During a routine screening, an AI tool reviewing her scan flagged a faint, easy-to-miss pattern and recommended a closer look. It turned out to be the earliest whisper of a cancer that wouldn't have shown up to the human eye for years.",
+      "Caught that early, treatment was straightforward and successful. Her oncologist calls it \"the catch of a lifetime\" — and a sign of how the technology can give doctors a head start that saves lives."
+    ]
   },
   {
     "id": "ai-whale-calls",
@@ -180,7 +240,11 @@
     "hoursAgo": 5,
     "glyph": "🐋",
     "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
-    "tags": ["good-ai", "animals", "science"]
+    "tags": ["good-ai", "animals", "science"],
+    "body": [
+      "After months of feeding thousands of hours of recordings into a model, researchers began to spot patterns in the clicks and calls — recurring \"phrases\" that seemed to carry meaning.",
+      "When they played one back into the water, a humpback paused, circled the research boat, and answered. The team is careful not to overclaim, but they agree it felt unmistakably like the start of a conversation."
+    ]
   },
   {
     "id": "ai-helpline",
@@ -192,6 +256,10 @@
     "hoursAgo": 8,
     "glyph": "🔊",
     "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
-    "tags": ["good-ai", "community"]
+    "tags": ["good-ai", "community"],
+    "body": [
+      "Dial the free number, hold a letter or bill up to your phone's camera, and a calm voice reads it back and explains what it means in plain language — no account, no fees, no judgment.",
+      "Built for people who struggle with reading or eyesight, the service handled half a million calls in its first month, quietly turning a daily source of stress into a two-minute phone call."
+    ]
   }
 ]
