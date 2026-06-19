@@ -26,7 +26,13 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      # Pull live good-news RSS feeds. Don't fail the deploy if a feed is down —
+      # the build falls back to the curated articles.
+      - name: Fetch live RSS feeds
+        run: npm run fetch
+        continue-on-error: true
 
       # Zero dependencies, so no install step is needed.
       - name: Build site

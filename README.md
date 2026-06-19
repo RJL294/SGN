@@ -21,15 +21,19 @@ npm run dev
 ```
 data/articles.json   Curated stories — the source of truth.
 data/home.json       Homepage composition: lead story, rail, ticker, sections, meter.
+data/site.json       Site config: tip-form endpoint / contact email.
 feeds.json           Public good-news RSS/Atom feeds to ingest (optional).
 lib/rss.js           Dependency-free RSS 2.0 / Atom parser.
 lib/articles.js      Loads, normalizes, merges + de-dupes articles.
 lib/render.js        Templates (the mockup's markup, parameterized).
-scripts/build.js     Generates dist/ (homepage + one page per section).
+scripts/build.js     Generates dist/ (home, about, tip, sections, story pages).
 scripts/fetch-feeds.js  Pulls feeds → data/feed-cache.json.
 scripts/serve.js     Zero-dep static preview server.
 assets/              styles.css + main.js, lifted verbatim from the mockup.
 ```
+
+Generated pages: `index.html`, `about.html`, `tip.html`, one page per nav
+section, and one detail page per article under `stories/`.
 
 ### Adding a story
 
@@ -65,6 +69,29 @@ Feed items link back to their **original source** and are de-duplicated against
 curated entries by URL. The fetcher degrades gracefully: any feed blocked by a
 network policy is skipped, and the site still builds from `articles.json`.
 `data/feed-cache.json` is git-ignored — it's regenerated on demand.
+
+The homepage's **"Fresh Off the Wire"** section auto-fills with the newest items
+not already featured elsewhere; it's hidden when there's nothing fresh to show.
+
+### Live RSS on deploy
+
+The GitHub Pages workflow (`.github/workflows/pages.yml`) runs `npm run fetch`
+before each build, so every deploy ingests live feed items. The fetch step is
+`continue-on-error`, so a feed outage never blocks a deploy.
+
+### Tip submissions
+
+`tip.html` is a ready-to-use submission form. Configure delivery in
+`data/site.json`:
+
+- `tipEndpoint` — a [Formspree](https://formspree.io) (or compatible) POST URL.
+  When set, the form submits via `fetch` and shows an inline thank-you.
+- `contactEmail` — a fallback address. With no endpoint, the form opens a
+  pre-filled email to this address.
+- Leave both blank for **demo mode** (the form validates and resets, but tips
+  aren't delivered).
+
+A hidden honeypot field provides basic spam protection.
 
 ## Design
 

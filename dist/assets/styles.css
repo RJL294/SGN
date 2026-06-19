@@ -193,6 +193,33 @@ article.card .byline{font-size:11px;}
 .block.related{border-top:3px solid var(--ink);margin-top:46px;}
 article.card .photo{cursor:pointer;}
 
+/* ---------- content pages (About, Tip) ---------- */
+.page{max-width:760px;margin:0 auto;padding:38px 0 6px;}
+.page .kicker{margin-bottom:12px;}
+.page-title{font-family:"Archivo",sans-serif;font-weight:900;font-size:clamp(34px,5.5vw,56px);line-height:1.0;letter-spacing:-.02em;margin:6px 0 18px;}
+.page-lead{font-size:22px;line-height:1.42;color:#3a322b;margin:0 0 26px;}
+.page h2{font-family:"Archivo",sans-serif;font-weight:800;font-size:22px;letter-spacing:-.01em;margin:30px 0 10px;}
+.page p{font-size:18px;line-height:1.6;color:#241f1b;margin:0 0 16px;}
+.page p a{color:var(--coral-deep);border-bottom:1px solid var(--gold);}
+
+/* ---------- tip form ---------- */
+.form-note{background:var(--paper-2);border:2px solid var(--ink);border-radius:4px;padding:14px 16px;font-size:15px;line-height:1.5;color:#473d34;margin:0 0 26px;}
+.form-note code{font-family:"Spline Sans Mono",monospace;font-size:13px;background:#fff;border:1px solid var(--hairline);padding:1px 5px;border-radius:3px;}
+.tip-form{margin-top:8px;}
+.field{margin-bottom:18px;}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.field label{display:block;font-family:"Archivo",sans-serif;font-weight:700;font-size:13px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink);margin-bottom:7px;}
+.field label .req{color:var(--coral);}
+.field label .opt{font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink-soft);}
+.field input,.field textarea{width:100%;font-family:"Newsreader",Georgia,serif;font-size:17px;color:var(--ink);background:var(--paper-2);border:2px solid var(--hairline);border-radius:3px;padding:12px 14px;transition:border-color .15s;}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--ink);}
+.field textarea{resize:vertical;}
+.gotcha{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+.btn-lg{display:inline-block;margin-top:6px;background:var(--coral);color:#fff;font-family:"Archivo",sans-serif;font-weight:800;font-size:15px;letter-spacing:.04em;text-transform:uppercase;padding:15px 26px;border:none;border-radius:3px;cursor:pointer;transition:.16s;}
+.btn-lg:hover{background:var(--ink);}
+.tip-status{margin-top:16px;font-family:"Spline Sans Mono",monospace;font-size:14px;line-height:1.5;color:var(--leaf);min-height:1.2em;}
+@media(max-width:560px){.field-row{grid-template-columns:1fr;gap:0;}}
+
 /* ---------- meter ---------- */
 .meter{background:var(--ink);color:var(--paper);margin-top:50px;padding:48px 0;}
 .meter .wrap{text-align:center;}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Animals — Cloudbreak</title>
+<title>Send us a tip — Cloudbreak</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,500;1,16..72,400&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
       <nav>
         <div class="navrow">
           <a href="kindness.html">Kindness</a>
-          <a href="animals.html" class="active">Animals</a>
+          <a href="animals.html">Animals</a>
           <a href="heroes.html">Everyday Heroes</a>
           <a href="science.html">Science Wins</a>
           <a href="good-ai.html">Good AI</a>
@@ -59,53 +59,40 @@
   </header>
 
   <div class="wrap">
-    <div class="section-hero">
-      <span class="kicker">5 stories</span>
-      <h1>Animals</h1>
-      <p class="section-sub">Every Animals story we're smiling about, freshest first.</p>
-    </div>
+    <article class="page">
+      <span class="kicker">Send us a tip</span>
+      <h1 class="page-title">Share some good news.</h1>
+      <p class="page-lead">A neighbor, a rescue, a small win on your street — if it made you smile, we'd love to hear about it. The more good, the better.</p>
+      <p class="form-note">This form is in demo mode. To start receiving tips, add a Formspree endpoint (or a contact email) to <code>data/site.json</code> and rebuild.</p>
+      <form id="tip-form" class="tip-form" action="#" method="post" data-endpoint="" data-email="" novalidate>
+        <div class="field">
+          <label for="headline">The good news <span class="req">*</span></label>
+          <input id="headline" name="headline" type="text" required placeholder="e.g. Local teen opens a free repair café">
+        </div>
+        <div class="field">
+          <label for="link">Link to the story</label>
+          <input id="link" name="link" type="url" placeholder="https://…">
+        </div>
+        <div class="field">
+          <label for="details">Tell us more</label>
+          <textarea id="details" name="details" rows="5" placeholder="What happened, and why it made you smile."></textarea>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Your name <span class="opt">(optional)</span></label>
+            <input id="name" name="name" type="text" placeholder="So we can thank you">
+          </div>
+          <div class="field">
+            <label for="email">Your email <span class="opt">(optional)</span></label>
+            <input id="email" name="email" type="email" placeholder="you@example.com">
+          </div>
+        </div>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="gotcha">
+        <button class="btn-lg" type="submit">Send the good news →</button>
+        <p id="tip-status" class="tip-status" role="status" aria-live="polite"></p>
+      </form>
+    </article>
   </div>
-
-  <section class="block">
-    <div class="wrap">
-      <div class="grid3">
-        <article class="card lg">
-          <a class="photo" href="stories/shelter-empty.html" style="background:linear-gradient(135deg,#0C7C8C,#1E9E63);"><span class="glyph" aria-hidden="true">🐾</span></a>
-          <span class="kicker">Animals</span>
-          <h3><a href="stories/shelter-empty.html">Shelter Empties for the First Time in 30 Years as Every Last Pet Finds a Home</a></h3>
-          <p class="dek">Staff lined up for a photo in front of rows of empty kennels. &quot;We&#39;ve literally never seen this,&quot; the director said.</p>
-          <p class="byline">via <b>Community Wire</b> · 2h</p>
-        </article>
-        <article class="card lg">
-          <a class="photo" href="stories/lost-dog.html" style="background:linear-gradient(135deg,#1E9E63,#0C7C8C);"><span class="glyph" aria-hidden="true">🐕</span></a>
-          <span class="kicker">Animals</span>
-          <h3><a href="stories/lost-dog.html">Lost Dog Walks 40 Miles Home, Turns Up at the Door Like Nothing Happened</a></h3>
-          <p class="byline">via <b>Community Wire</b> · 4h</p>
-        </article>
-        <article class="card lg">
-          <a class="photo" href="stories/whale-netting.html" style="background:linear-gradient(135deg,#2B6CB0,#0C7C8C);"><span class="glyph" aria-hidden="true">🐋</span></a>
-          <span class="kicker">Animals</span>
-          <h3><a href="stories/whale-netting.html">Divers Free a Whale Tangled in Netting — Then It Circles Back, As If to Say Thanks</a></h3>
-          <p class="dek">The rescue took two hours. The send-off, captured on a drone, has been watched four million times.</p>
-          <p class="byline">via <b>Ocean Bright</b> · 4h</p>
-        </article>
-        <article class="card lg">
-          <a class="photo" href="stories/ai-whale-calls.html" style="background:linear-gradient(135deg,#0C7C8C,#1E9E63);"><span class="glyph" aria-hidden="true">🐋</span></a>
-          <span class="kicker">Animals</span>
-          <h3><a href="stories/ai-whale-calls.html">Researchers Used AI to Decode Whale Calls — Then They Started Answering Back</a></h3>
-          <p class="dek">After months of listening, the team played a phrase into the deep. A humpback paused, circled the boat, and replied.</p>
-          <p class="byline">via <b>Ocean Bright</b> · 5h</p>
-        </article>
-        <article class="card lg">
-          <a class="photo" href="stories/penguin-colony.html" style="background:linear-gradient(135deg,#1E9E63,#FFC02E);"><span class="glyph" aria-hidden="true">🐧</span></a>
-          <span class="kicker">Science Wins</span>
-          <h3><a href="stories/penguin-colony.html">A Penguin Colony Has Doubled in Size Since Conservationists Stepped In</a></h3>
-          <p class="dek">Five years ago the count was falling fast. The new survey put it at the highest number on record.</p>
-          <p class="byline">via <b>Science Daily Good</b> · 7h</p>
-        </article>
-      </div>
-    </div>
-  </section>
 
   <footer>
     <div class="wrap">
