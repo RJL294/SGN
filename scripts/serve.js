@@ -51,5 +51,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Some Good News preview → http://localhost:${PORT}`);
+  console.log(`Cloudbreak preview → http://localhost:${PORT}`);
 });

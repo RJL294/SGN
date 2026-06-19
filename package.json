@@ -1,8 +1,8 @@
 {
-  "name": "some-good-news",
+  "name": "cloudbreak",
   "version": "1.0.0",
   "private": true,
-  "description": "Some Good News — a data-driven static site that compiles feel-good news from across the web.",
+  "description": "Cloudbreak — a data-driven static site that compiles feel-good news from across the web.",
   "type": "module",
   "engines": {
     "node": ">=18"

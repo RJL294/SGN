@@ -23,7 +23,7 @@ async function fetchText(url) {
   try {
     const res = await fetch(url, {
       signal: ctrl.signal,
-      headers: { 'user-agent': 'SomeGoodNewsBot/1.0 (+https://github.com/RJL294/SGN)' },
+      headers: { 'user-agent': 'CloudbreakBot/1.0 (+https://github.com/RJL294/SGN)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();

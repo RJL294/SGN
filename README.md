@@ -1,4 +1,4 @@
-# Some Good News ☀
+# Cloudbreak ☀
 
 A data-driven static news site that compiles the feel-good news from across the
 web — HuffPost-style layout, good news only. Every article is **data**, and the
