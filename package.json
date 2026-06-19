@@ -1,0 +1,16 @@
+{
+  "name": "some-good-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Some Good News — a data-driven static site that compiles feel-good news from across the web.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "fetch": "node scripts/fetch-feeds.js",
+    "serve": "node scripts/serve.js",
+    "dev": "node scripts/build.js && node scripts/serve.js"
+  }
+}
