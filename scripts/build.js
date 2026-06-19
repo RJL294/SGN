@@ -9,6 +9,31 @@ function relatedTo(a, all, limit = 3) {
     .slice(0, limit);
 }
 
+// Resolve home sections, filling `auto: "recent"` sections with the freshest
+// articles not already featured elsewhere, and dropping any that come up empty
+// (e.g. when no live feed items are present).
+function resolveHomeSections(home, articles) {
+  const used = new Set([home.lead, ...(home.rail || [])]);
+  for (const sec of home.sections || []) {
+    if (Array.isArray(sec.ids)) sec.ids.forEach((id) => used.add(id));
+  }
+  const out = [];
+  for (const sec of home.sections || []) {
+    if (sec.auto === 'recent') {
+      const ids = articles
+        .filter((a) => !used.has(a.id))
+        .slice(0, sec.limit || 4)
+        .map((a) => a.id);
+      if (!ids.length) continue; // nothing fresh to show — skip the section
+      ids.forEach((id) => used.add(id));
+      out.push({ ...sec, ids });
+    } else {
+      out.push(sec);
+    }
+  }
+  return out;
+}
+
 import {
   mkdirSync,
   writeFileSync,
@@ -21,7 +46,14 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { loadArticles, indexById, bySection } from '../lib/articles.js';
-import { renderHome, renderSection, renderArticle, NAV } from '../lib/render.js';
+import {
+  renderHome,
+  renderSection,
+  renderArticle,
+  renderAbout,
+  renderTip,
+  NAV,
+} from '../lib/render.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
@@ -47,12 +79,21 @@ function main() {
   const articles = loadArticles();
   const byId = indexById(articles);
   const home = loadJSON('data/home.json', { sections: [], ticker: [], rail: [], meter: {} });
+  const site = loadJSON('data/site.json', { tipEndpoint: '', contactEmail: '' });
 
   rmSync(DIST, { recursive: true, force: true });
   mkdirSync(DIST, { recursive: true });
 
-  // homepage
+  // homepage (resolve any auto sections first, e.g. "Fresh Off the Wire")
+  home.sections = resolveHomeSections(home, articles);
   writeFileSync(join(DIST, 'index.html'), renderHome({ home, byId }));
+
+  // static pages
+  writeFileSync(join(DIST, 'about.html'), renderAbout());
+  writeFileSync(
+    join(DIST, 'tip.html'),
+    renderTip({ endpoint: site.tipEndpoint || '', contactEmail: site.contactEmail || '' })
+  );
 
   // one page per nav section
   const counts = {};
@@ -77,9 +118,11 @@ function main() {
 
   copyAssets();
 
-  const pages = 1 + NAV.length + articles.length;
+  const pages = 3 + NAV.length + articles.length;
   console.log(`Built ${pages} pages from ${articles.length} articles → dist/`);
   console.log('  index.html');
+  console.log('  about.html');
+  console.log('  tip.html');
   for (const nav of NAV) {
     console.log(`  ${nav.slug}.html  (${counts[nav.slug]} ${counts[nav.slug] === 1 ? 'story' : 'stories'})`);
   }

@@ -10,6 +10,13 @@
   ],
   "sections": [
     {
+      "title": "Fresh Off the Wire",
+      "slug": "latest",
+      "layout": "grid4",
+      "auto": "recent",
+      "limit": 4
+    },
+    {
       "title": "Today's Wins",
       "slug": "todays-wins",
       "layout": "grid4",
