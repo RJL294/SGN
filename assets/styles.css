@@ -175,6 +175,24 @@ article.card .byline{font-size:11px;}
 .section-hero .section-sub{font-size:18px;color:#473d34;margin:0;max-width:50ch;}
 .empty{font-size:18px;color:#473d34;padding:30px 0 10px;}
 
+/* ---------- article detail page ---------- */
+.story{max-width:760px;margin:0 auto;padding:38px 0 4px;}
+.backlink{font-family:"Spline Sans Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--coral-deep);display:inline-block;margin-bottom:20px;}
+.backlink:hover{color:var(--ink);}
+.story .kicker{margin-bottom:12px;}
+.story-title{font-family:"Archivo",sans-serif;font-weight:900;font-size:clamp(32px,5vw,52px);line-height:1.03;letter-spacing:-.02em;margin:6px 0 16px;}
+.story-standfirst{font-size:22px;line-height:1.42;color:#3a322b;margin:0 0 18px;}
+.story .byline{margin-bottom:24px;}
+.story-photo{aspect-ratio:16/9;margin:0 0 30px;}
+.story-photo .glyph{font-size:84px;}
+.story-body{font-size:19px;line-height:1.62;color:#241f1b;}
+.story-body p{margin:0 0 20px;}
+.source-btn{display:inline-block;margin-top:6px;background:var(--coral);color:#fff;font-family:"Archivo",sans-serif;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase;padding:14px 22px;border-radius:3px;transition:.16s;}
+.source-btn:hover{background:var(--ink);}
+.source-note{margin-top:6px;font-family:"Spline Sans Mono",monospace;font-size:13px;line-height:1.5;color:var(--ink-soft);}
+.block.related{border-top:3px solid var(--ink);margin-top:46px;}
+article.card .photo{cursor:pointer;}
+
 /* ---------- meter ---------- */
 .meter{background:var(--ink);color:var(--paper);margin-top:50px;padding:48px 0;}
 .meter .wrap{text-align:center;}
