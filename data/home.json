@@ -1,0 +1,48 @@
+{
+  "lead": "lunch-debt",
+  "rail": ["lost-dog", "coral-reef", "siblings-reunion"],
+  "ticker": [
+    "Stranger quietly pays off layaway gifts for 60 families",
+    "Teen invents a low-cost water filter, wins national science prize",
+    "Retired teacher reads bedtime stories online to 1,000 kids a night",
+    "Volunteers plant 50,000 trees in a single weekend",
+    "Nurse adopts the newborn she cared for in the ICU"
+  ],
+  "sections": [
+    {
+      "title": "Today's Wins",
+      "slug": "todays-wins",
+      "layout": "grid4",
+      "ids": ["firefighter", "renewable-100days", "barber-books", "marathon-comeback"]
+    },
+    {
+      "title": "Animal Kingdom",
+      "slug": "animals",
+      "layout": "grid3",
+      "lg": true,
+      "ids": ["shelter-empty", "whale-netting", "penguin-colony"]
+    },
+    {
+      "title": "Everyday Heroes",
+      "slug": "heroes",
+      "layout": "grid3",
+      "lg": true,
+      "ids": ["winter-coats", "bus-driver", "widow-porch"]
+    },
+    {
+      "title": "Good AI",
+      "slug": "good-ai",
+      "layout": "grid3",
+      "lg": true,
+      "ids": ["ai-cancer", "ai-whale-calls", "ai-helpline"]
+    }
+  ],
+  "meter": {
+    "stats": [
+      { "count": 1284, "label": "Acts of kindness logged" },
+      { "count": 47, "label": "Reunions" },
+      { "count": 213, "label": "Rescues" },
+      { "suffix": "∞", "label": "Reasons to smile" }
+    ]
+  }
+}
