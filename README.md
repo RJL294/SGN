@@ -84,10 +84,13 @@ before each build, so every deploy ingests live feed items. The fetch step is
 `tip.html` is a ready-to-use submission form. Configure delivery in
 `data/site.json`:
 
-- `tipEndpoint` — a [Formspree](https://formspree.io) (or compatible) POST URL.
-  When set, the form submits via `fetch` and shows an inline thank-you.
-- `contactEmail` — a fallback address. With no endpoint, the form opens a
-  pre-filled email to this address.
+- `tipEndpoint` — a form-backend POST URL. When set, the form submits via
+  `fetch` and shows an inline thank-you (no email app). Works with
+  [FormSubmit](https://formsubmit.co) (`https://formsubmit.co/ajax/<email>`,
+  no account — the first submission triggers a one-time confirmation email),
+  [Formspree](https://formspree.io), or any compatible endpoint.
+- `contactEmail` — fallback address. Used to open a pre-filled email if the
+  `fetch` request can't reach the server, or if no endpoint is set.
 - Leave both blank for **demo mode** (the form validates and resets, but tips
   aren't delivered).
 
