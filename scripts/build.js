@@ -118,6 +118,11 @@ function main() {
 
   copyAssets();
 
+  // Custom domain: GitHub Pages reads a CNAME file at the site root.
+  if (site.domain) {
+    writeFileSync(join(DIST, 'CNAME'), site.domain + '\n');
+  }
+
   const pages = 3 + NAV.length + articles.length;
   console.log(`Built ${pages} pages from ${articles.length} articles → dist/`);
   console.log('  index.html');
