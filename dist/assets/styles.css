@@ -85,8 +85,8 @@ nav{border-top:1px solid var(--hairline);margin-top:16px;}
 .navrow::-webkit-scrollbar{display:none;}
 .navrow a{
   font-family:"Archivo",sans-serif;font-weight:700;
-  font-size:13px;letter-spacing:.05em;text-transform:uppercase;
-  padding:14px 16px;white-space:nowrap;color:var(--ink);
+  font-size:11.5px;letter-spacing:.02em;text-transform:uppercase;
+  padding:13px 10px;white-space:nowrap;color:var(--ink);
   border-bottom:3px solid transparent;transition:.15s;
 }
 .navrow a:first-child{padding-left:0;}
@@ -237,6 +237,7 @@ article.card .photo{cursor:pointer;}
 .chart-dot{fill:var(--leaf);}
 .chart-dot-last,.spark-dot{fill:var(--leaf);stroke:var(--paper-2);stroke-width:2;}
 .chart-xlabel{fill:var(--ink-soft);font-family:"Spline Sans Mono",monospace;font-size:11px;}
+.chart-vlabel{fill:var(--ink);font-family:"Spline Sans Mono",monospace;font-size:9.5px;font-weight:600;}
 .metric-blurb{font-size:14.5px;line-height:1.45;color:#473d34;margin:0 0 12px;}
 .metric-source{font-family:"Spline Sans Mono",monospace;font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);margin:auto 0 0;}
 .metric-source a{color:var(--coral-deep);}
