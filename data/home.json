@@ -1,12 +1,12 @@
 {
-  "lead": "lunch-debt",
-  "rail": ["lost-dog", "coral-reef", "siblings-reunion"],
+  "lead": "doordash-driver",
+  "rail": ["deputies-pool-rescue", "caylie-boston", "buttercup-reunion"],
   "ticker": [
-    "Stranger quietly pays off layaway gifts for 60 families",
-    "Teen invents a low-cost water filter, wins national science prize",
-    "Retired teacher reads bedtime stories online to 1,000 kids a night",
-    "Volunteers plant 50,000 trees in a single weekend",
-    "Nurse adopts the newborn she cared for in the ICU"
+    "Strangers send a 78-year-old delivery driver nearly $1 million",
+    "Wind and sun out-produce gas worldwide for the first time ever",
+    "Two teens on a bike ride find a neighbor who'd been down for 16 hours",
+    "North Atlantic right whales welcome 23 calves — most since 2009",
+    "A microchip sends a dog named Buttercup home after 10 years"
   ],
   "sections": [
     {
@@ -20,28 +20,28 @@
       "title": "Today's Wins",
       "slug": "todays-wins",
       "layout": "grid4",
-      "ids": ["firefighter", "renewable-100days", "barber-books", "marathon-comeback"]
+      "ids": ["homeless-fresh-start", "fruitland-teens", "colon-cancer-immunotherapy", "solar-gas-record"]
     },
     {
       "title": "Animal Kingdom",
       "slug": "animals",
       "layout": "grid3",
       "lg": true,
-      "ids": ["shelter-empty", "whale-netting", "penguin-colony"]
+      "ids": ["drone-pet-rescue", "right-whale-calves", "condor-comeback"]
     },
     {
-      "title": "Everyday Heroes",
-      "slug": "heroes",
+      "title": "Science & Good AI",
+      "slug": "science",
       "layout": "grid3",
       "lg": true,
-      "ids": ["winter-coats", "bus-driver", "widow-porch"]
+      "ids": ["pancreatic-cancer-drugs", "crispr-baby", "ai-rare-disease"]
     },
     {
-      "title": "Good AI",
-      "slug": "good-ai",
+      "title": "The Planet",
+      "slug": "planet",
       "layout": "grid3",
       "lg": true,
-      "ids": ["ai-cancer", "ai-whale-calls", "ai-helpline"]
+      "ids": ["rivers-rewilding", "bald-eagle", "ai-animal-language"]
     }
   ],
   "meter": {

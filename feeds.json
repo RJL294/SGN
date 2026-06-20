@@ -22,5 +22,21 @@
     "glyph": "🎉",
     "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
     "tags": ["community"]
+  },
+  {
+    "name": "The Optimist Daily",
+    "url": "https://www.optimistdaily.com/feed/",
+    "kicker": "Science Wins",
+    "glyph": "💡",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
+    "tags": ["science", "community"]
+  },
+  {
+    "name": "Yes! Magazine",
+    "url": "https://www.yesmagazine.org/feed",
+    "kicker": "Community",
+    "glyph": "✊",
+    "gradient": "linear-gradient(135deg,#E85D9E,#FFC02E)",
+    "tags": ["community", "planet"]
   }
 ]

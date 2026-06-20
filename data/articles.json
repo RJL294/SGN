@@ -1,265 +1,323 @@
 [
   {
-    "id": "lunch-debt",
-    "title": "A Town Dropped Its Spare Change in a Jar for a Year. It Just Wiped Out Every Student's Lunch Debt.",
-    "dek": "Residents fed coins into a jug at the hardware store all year. Twelve months later, not a single kid in the district owes a cent — and the jug is already filling back up.",
+    "id": "doordash-driver",
+    "title": "A Doorbell Video of a 78-Year-Old Delivery Driver Went Viral. Strangers Sent Him Nearly $1 Million.",
+    "dek": "Richard Pulley was still working delivery shifts at 78. After a doorbell camera clip touched the internet, a fundraiser snowballed to $965,868.",
     "kicker": "Community",
-    "source": "The Bright Side",
-    "url": "#",
+    "source": "ABC News",
+    "url": "https://abcnews.com/GMA/Living/strangers-donate-1-million-viral-78-year-delivery/story?id=131322143",
     "hoursAgo": 2,
     "readMins": 3,
-    "glyph": "🥪",
+    "glyph": "📦",
     "gradient": "linear-gradient(135deg,#FFC02E,#FF5A36)",
     "tags": ["community", "kindness"],
     "body": [
-      "It started with a single mason jar by the register at the local hardware store and a hand-written label: \"lunch debt fund.\" Shoppers dropped in their pennies, nickels and the odd folded bill on their way out, and over twelve quiet months it added up to enough to clear the meal debt for every student in the district.",
-      "The best part, organizers say, is what happened next: the jar didn't disappear. Neighbors keep topping it up, turning a one-time gesture into a small, steady safety net so no kid ever has to skip lunch again."
+      "A homeowner's doorbell camera caught 78-year-old Richard Pulley making a delivery, and something about a man still working that hard, that late in life, moved the people who saw it. A stranger started an online fundraiser on his behalf, and donations poured in from around the world.",
+      "By March 20, the GoFundMe had reached $965,868 — close to a million dollars handed to a man who never asked for a thing. He was presented with the check in person, surrounded by people who simply wanted his life to get a little easier."
     ]
   },
   {
-    "id": "lost-dog",
-    "title": "Lost Dog Walks 40 Miles Home, Turns Up at the Door Like Nothing Happened",
-    "kicker": "Animals",
-    "source": "Community Wire",
-    "url": "#",
-    "hoursAgo": 4,
-    "glyph": "🐕",
-    "gradient": "linear-gradient(135deg,#1E9E63,#0C7C8C)",
-    "tags": ["animals"],
-    "body": [
-      "He slipped his leash on a camping trip and vanished into the hills, and his family feared the worst after days of searching turned up nothing. Then, nearly a week later, a familiar scratch came at the front door — forty miles from where he was last seen.",
-      "A little thinner and a lot muddier, he trotted inside, flopped onto his favorite rug and promptly fell asleep, as if a cross-country trek were all in a day's work."
-    ]
-  },
-  {
-    "id": "coral-reef",
-    "title": "A 'Coral Nursery' Brought a Dead Reef Back to Life in Just Three Years",
-    "kicker": "Science Wins",
-    "source": "Science Daily Good",
-    "url": "#",
-    "hoursAgo": 5,
-    "glyph": "🪸",
-    "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
-    "tags": ["science", "planet"],
-    "body": [
-      "Divers grew fragments of healthy coral on underwater frames, then transplanted them piece by piece onto a stretch of reef that had bleached to a ghostly white. Three years on, the structure is a riot of color again, humming with fish that had long since moved away.",
-      "Researchers say the speed of the recovery surprised even them — proof that, given a helping hand, some of the ocean's most fragile places can bounce back faster than anyone dared hope."
-    ]
-  },
-  {
-    "id": "siblings-reunion",
-    "title": "Siblings Separated 60 Years Ago Find Each Other Living One Town Apart",
-    "kicker": "Reunions",
-    "source": "The Bright Side",
-    "url": "#",
-    "hoursAgo": 6,
-    "glyph": "🫂",
-    "gradient": "linear-gradient(135deg,#E85D9E,#7A4BC9)",
-    "tags": ["reunions"],
-    "body": [
-      "Separated as small children and raised by different families, the two spent decades wondering about each other. A DNA test taken almost on a whim returned a match — and an address barely fifteen minutes down the road.",
-      "They've made up for lost time fast, meeting for coffee most mornings and marveling at all the years they lived so close without knowing it."
-    ]
-  },
-  {
-    "id": "firefighter",
-    "title": "Off-Duty Firefighter Pulls a Family From the River, Then Slips Away Before Anyone Gets His Name",
-    "kicker": "Heroes",
-    "source": "Local Heroes Desk",
-    "url": "#",
-    "hoursAgo": 1,
-    "glyph": "🚒",
-    "gradient": "linear-gradient(135deg,#FF5A36,#F2A20C)",
-    "tags": ["heroes"],
-    "body": [
-      "He was driving home when he saw the car leave the road and hit the water. Without hesitating he waded in and brought all four passengers to the bank, one by one, as bystanders called for help.",
-      "By the time the ambulances arrived he had quietly returned to his car and driven off. The family is still trying to track him down — they just want to say thank you."
-    ]
-  },
-  {
-    "id": "renewable-100days",
-    "title": "A Whole Country Ran on Renewable Power for 100 Days Straight — a New Record",
-    "kicker": "The Planet",
-    "source": "Green Wire",
-    "url": "#",
-    "hoursAgo": 3,
-    "glyph": "⚡",
-    "gradient": "linear-gradient(135deg,#1E9E63,#7CB518)",
-    "tags": ["planet", "science"],
-    "body": [
-      "For one hundred consecutive days, the national grid drew its electricity entirely from water, wind and sun — the longest unbroken run of fully renewable power the country has ever recorded.",
-      "Engineers credit a wet, windy season and years of patient investment in storage. The milestone, they say, is less a fluke than a glimpse of the ordinary future they're building toward."
-    ]
-  },
-  {
-    "id": "barber-books",
-    "title": "This Barber Gives Free Haircuts to Any Kid Who Reads Him a Book First",
+    "id": "homeless-fresh-start",
+    "title": "Five Strangers Met a Man Living Under an Overpass With His Dog. A Year Later, He Has a Home and a Job.",
+    "dek": "Dan Cuthern had been under a Missouri overpass with his dog Bentley for more than a decade — until five women decided to change that.",
     "kicker": "Kindness",
-    "source": "The Bright Side",
-    "url": "#",
-    "hoursAgo": 4,
-    "glyph": "✂️",
+    "source": "The River 105.9",
+    "url": "https://theriver1059.iheart.com/featured/kerry-collins/content/2026-04-14-good-news-strangers-kindness-gives-homeless-man-his-dog-a-fresh-start/",
+    "hoursAgo": 7,
+    "glyph": "🏡",
+    "gradient": "linear-gradient(135deg,#1E9E63,#7CB518)",
+    "tags": ["kindness", "community", "animals"],
+    "body": [
+      "Dan Cuthern had lived under an overpass in Jefferson County, Missouri for more than ten years, with his dog Bentley always at his side. Five local women got to know him and decided, together, to help him climb out.",
+      "They raised money for a hotel room first, then kept going until they could buy him an RV of his own. They also helped him land a job at a local doggy daycare — a fresh start for Dan, and for Bentley too."
+    ]
+  },
+  {
+    "id": "generosity-experiment",
+    "title": "A Social Experiment Is Handing 1,000 People $500 — to Spend on Someone Else",
+    "dek": "Drop Dead Generous gives ordinary people real money with one rule: use it creatively to help others.",
+    "kicker": "Kindness",
+    "source": "Positive News",
+    "url": "https://www.positive.news/society/the-generosity-experiment/",
+    "hoursAgo": 30,
+    "glyph": "🎁",
     "gradient": "linear-gradient(135deg,#E85D9E,#FFC02E)",
     "tags": ["kindness", "community"],
     "body": [
-      "Climb into his chair, open a book, and read aloud — that's the only price of admission. The barber listens, nods along, and gently helps with the tricky words while he works the clippers.",
-      "Word spread, and now a shelf of well-worn picture books sits by the mirror. Parents say their kids ask to come back not for the haircut, but for the audience."
+      "What happens if you give people money for the express purpose of being generous? A project called Drop Dead Generous is finding out, handing 1,000 people $500 each and asking them to spend it on helping others however they see fit.",
+      "The result is a sprawling, improvised experiment in kindness — strangers paying off debts, stocking pantries, and dreaming up small acts of care, all to test a simple idea: that generosity, given room, tends to multiply."
     ]
   },
   {
-    "id": "marathon-comeback",
-    "title": "Doctors Said She'd Never Walk Again. She Just Finished a Full Marathon.",
-    "kicker": "Comebacks",
-    "source": "Good Sport",
-    "url": "#",
-    "hoursAgo": 5,
-    "glyph": "🏅",
-    "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
-    "tags": ["comebacks"],
-    "body": [
-      "After the accident, the prognosis was blunt: she might not walk again. She started with a single step between parallel bars, then two, then a slow shuffle down the hospital hallway.",
-      "Years of stubborn, daily effort later, she crossed a marathon finish line under her own power — arms raised, the last runner home, and the loudest cheer of the day."
-    ]
-  },
-  {
-    "id": "shelter-empty",
-    "title": "Shelter Empties for the First Time in 30 Years as Every Last Pet Finds a Home",
-    "dek": "Staff lined up for a photo in front of rows of empty kennels. \"We've literally never seen this,\" the director said.",
-    "kicker": "Animals",
-    "source": "Community Wire",
-    "url": "#",
-    "hoursAgo": 2,
-    "glyph": "🐾",
-    "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
-    "tags": ["animals", "community"],
-    "body": [
-      "A weekend adoption drive turned into something the staff had never witnessed: by Sunday evening, every kennel was empty. Volunteers walked the quiet corridors in happy disbelief, then lined up for a photo no one at the shelter had ever been able to take.",
-      "The director was quick to add the bittersweet footnote — empty kennels never stay empty for long — but for one bright weekend, every single animal in their care had somewhere to call home."
-    ]
-  },
-  {
-    "id": "whale-netting",
-    "title": "Divers Free a Whale Tangled in Netting — Then It Circles Back, As If to Say Thanks",
-    "dek": "The rescue took two hours. The send-off, captured on a drone, has been watched four million times.",
-    "kicker": "Animals",
-    "source": "Ocean Bright",
-    "url": "#",
+    "id": "deputies-pool-rescue",
+    "title": "A Toddler Fell Into a Pool and Stopped Breathing. Two Deputies Brought Her Back.",
+    "dek": "Dashcam video from South Carolina captured the moment two deputies' training turned a parent's worst nightmare into relief.",
+    "kicker": "Heroes",
+    "source": "WSPA",
+    "url": "https://www.wspa.com/news/local-news/deputies-credited-with-saving-life-of-child-who-fell-into-upstate-pool/",
     "hoursAgo": 4,
-    "glyph": "🐋",
-    "gradient": "linear-gradient(135deg,#2B6CB0,#0C7C8C)",
-    "tags": ["animals"],
+    "glyph": "🚓",
+    "gradient": "linear-gradient(135deg,#FF5A36,#F2A20C)",
+    "tags": ["heroes"],
     "body": [
-      "For two careful hours, a small team worked to cut away the fishing net wrapped around the exhausted humpback, slicing through one tangle at a time as the animal held still in the water.",
-      "When the last rope fell away, the whale didn't bolt. It circled the boat once, lifted a fin, and slapped the surface — a farewell the divers swear they'll never forget."
+      "When a little girl fell into a swimming pool in Greenville County, South Carolina and stopped breathing, two deputies got there fast and went straight to work. Within moments, the dashcam picked up the sound everyone was praying for: the girl beginning to cry.",
+      "Deputies Jordan Stevenson and Connor O'Shields were credited with saving her life, their quick response and training turning a terrifying few minutes into a family's second chance."
     ]
   },
   {
-    "id": "penguin-colony",
-    "title": "A Penguin Colony Has Doubled in Size Since Conservationists Stepped In",
-    "dek": "Five years ago the count was falling fast. The new survey put it at the highest number on record.",
+    "id": "fruitland-teens",
+    "title": "Two Teens Went for a Bike Ride and Found a Neighbor Who'd Been Down for 16 Hours",
+    "dek": "Gunner and Kohen, both 13, were just out riding when they spotted an elderly woman who had fallen in her yard the day before.",
+    "kicker": "Heroes",
+    "source": "KWQC",
+    "url": "https://www.kwqc.com/2026/06/10/she-didnt-have-her-phone-or-water-fruitland-teens-rescue-elderly-neighbor-trapped-yard-16-hours/",
+    "hoursAgo": 5,
+    "glyph": "🚲",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#1E9E63)",
+    "tags": ["heroes", "community"],
+    "body": [
+      "It started as an ordinary summer morning in Fruitland, Iowa: a Pop-Tart, a FaceTime call, and a plan to go for a bike ride. Then Gunner Skidmore and Kohen Chick, both 13, came across an elderly neighbor who had fallen in her yard and been stuck there for more than 16 hours, without her phone or water.",
+      "The boys didn't hesitate — they got her help, and a neighbor who might not have been found for another day is safe because two kids decided to take the long way around."
+    ]
+  },
+  {
+    "id": "colon-cancer-immunotherapy",
+    "title": "A Short Course of Immunotherapy Left Bowel Cancer Patients Cancer-Free for Nearly Three Years",
+    "dek": "In a UK trial, a few weeks of treatment before surgery worked so well that some patients didn't need surgery at all.",
     "kicker": "Science Wins",
-    "source": "Science Daily Good",
-    "url": "#",
-    "hoursAgo": 7,
-    "glyph": "🐧",
-    "gradient": "linear-gradient(135deg,#1E9E63,#FFC02E)",
-    "tags": ["science", "animals", "planet"],
-    "body": [
-      "Five years ago the colony was shrinking so quickly that researchers feared it might wink out entirely. A protected feeding zone and a crackdown on disturbance gave the birds room to breathe.",
-      "This season's headcount came back the highest on record — roughly double the low point — with a beach full of fuzzy chicks to carry the numbers higher still."
-    ]
-  },
-  {
-    "id": "winter-coats",
-    "title": "A 9-Year-Old Saved His Allowance for Months to Buy Winter Coats for His Whole Class",
-    "kicker": "Kindness",
-    "source": "The Bright Side",
-    "url": "#",
-    "hoursAgo": 3,
-    "glyph": "🧥",
-    "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
-    "tags": ["kindness", "heroes"],
-    "body": [
-      "He noticed a classmate shivering at the bus stop without a coat, and decided to do something about it. Week by week, he set aside his allowance instead of spending it, keeping the plan a secret.",
-      "By the time the cold really set in, he had enough to buy a warm coat for every kid in his class — and handed them out without a word about who had paid."
-    ]
-  },
-  {
-    "id": "bus-driver",
-    "title": "This Bus Driver Knows Every Rider's Name — and Remembers All Their Birthdays",
-    "kicker": "Community",
-    "source": "Local Heroes Desk",
-    "url": "#",
-    "hoursAgo": 6,
-    "glyph": "🚌",
-    "gradient": "linear-gradient(135deg,#F2A20C,#FF5A36)",
-    "tags": ["community", "heroes"],
-    "body": [
-      "Step aboard her morning route and you'll get a greeting by name, a quick word about your week, and — if it's your day — a cheerful \"happy birthday\" from the driver's seat.",
-      "Regulars say the short ride has become the warmest part of their commute, a rolling living room where strangers turned into neighbors one stop at a time."
-    ]
-  },
-  {
-    "id": "widow-porch",
-    "title": "Neighbors Rebuilt a Widow's Collapsing Porch Overnight — as a Surprise",
-    "kicker": "Community",
-    "source": "Community Wire",
-    "url": "#",
+    "source": "Science Daily",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260505234618.htm",
     "hoursAgo": 9,
-    "glyph": "🔨",
-    "gradient": "linear-gradient(135deg,#7CB518,#1E9E63)",
-    "tags": ["community", "heroes", "kindness"],
+    "glyph": "🔬",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
+    "tags": ["science"],
     "body": [
-      "The porch had sagged for years, and she'd quietly stopped using her front door. So the street made a plan: while she was away visiting family, they'd fix it.",
-      "Dozens of neighbors showed up with lumber and tools and worked into the night. She came home to a sturdy new porch, a fresh coat of paint, and a welcome-home banner strung across the rail."
+      "In the NEOPRISM-CRC trial led by researchers at UCL and UCLH, 32 patients with a specific genetic subtype of stage two or three colorectal cancer received up to nine weeks of the immunotherapy drug pembrolizumab before surgery, instead of chemotherapy afterward.",
+      "The results were striking: patients have stayed cancer-free for nearly three years, and some responded so completely that surgery turned out to be unnecessary — a glimpse of a gentler, more effective way to treat the disease."
     ]
   },
   {
-    "id": "ai-cancer",
-    "title": "An AI Flagged Her Cancer Three Years Before Doctors Would Have. She's Now Cancer-Free.",
-    "dek": "The model spotted a faint pattern in a routine scan that the eye tends to miss. Her oncologist calls it \"the catch of a lifetime.\"",
+    "id": "pancreatic-cancer-drugs",
+    "title": "Two New Drugs Are Giving Pancreatic Cancer Patients Something Rare: More Time",
+    "dek": "One experimental drug doubled the odds of being alive after a year; another let patients live three to four times longer without the disease progressing.",
     "kicker": "Science Wins",
-    "source": "Science Daily Good",
-    "url": "#",
-    "hoursAgo": 2,
+    "source": "NPR",
+    "url": "https://www.npr.org/2026/05/12/nx-s1-5783797/pancreatic-cancer-breakthroughs-daraxonrasib-mrna",
+    "hoursAgo": 14,
+    "glyph": "💊",
+    "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
+    "tags": ["science"],
+    "body": [
+      "Pancreatic cancer is one of the hardest diagnoses in medicine, which is what makes two 2026 developments so encouraging. Patients given the experimental drug elraglusib alongside standard chemotherapy were twice as likely to be alive after a year, and their risk of death dropped by 38 percent.",
+      "A second drug, daraxonrasib, outperformed chemotherapy and let patients live three to four times longer without their disease progressing — eight to nine months, on average. For a cancer that has long resisted progress, it's a real opening."
+    ]
+  },
+  {
+    "id": "crispr-baby",
+    "title": "Doctors Built a One-of-a-Kind Gene Therapy for a Sick Baby — in Just Six Months",
+    "dek": "An infant with a rare metabolic disorder received a CRISPR treatment designed specifically for him, start to finish, in record time.",
+    "kicker": "Science Wins",
+    "source": "Innovative Genomics Institute",
+    "url": "https://innovativegenomics.org/news/crispr-clinical-trials-2026/",
+    "hoursAgo": 26,
+    "glyph": "🧬",
+    "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
+    "tags": ["science"],
+    "body": [
+      "When a baby was born with a dangerous metabolic condition called CPS1 deficiency, doctors did something that would have been science fiction a few years ago: they designed a personalized in-vivo CRISPR therapy aimed at his exact mutation.",
+      "From concept to FDA clearance to the treatment reaching the patient took just six months — a turnaround that hints at a future where the rarest diseases get custom-built cures, one child at a time."
+    ]
+  },
+  {
+    "id": "ai-rare-disease",
+    "title": "An AI System Is Helping Doctors Crack the Hardest Rare-Disease Cases — and Show Its Work",
+    "dek": "A new 'agentic' system diagnoses rare diseases with reasoning doctors can actually follow and check.",
+    "kicker": "Good AI",
+    "source": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-00290-9",
+    "hoursAgo": 20,
     "glyph": "🤖",
     "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
     "tags": ["good-ai", "science"],
     "body": [
-      "During a routine screening, an AI tool reviewing her scan flagged a faint, easy-to-miss pattern and recommended a closer look. It turned out to be the earliest whisper of a cancer that wouldn't have shown up to the human eye for years.",
-      "Caught that early, treatment was straightforward and successful. Her oncologist calls it \"the catch of a lifetime\" — and a sign of how the technology can give doctors a head start that saves lives."
+      "Rare diseases are notoriously hard to pin down — patients often spend years bouncing between specialists. Researchers writing in Nature describe an AI system that takes on these puzzles and, crucially, lays out traceable reasoning for how it reaches each diagnosis.",
+      "That transparency is the point: rather than a black box spitting out an answer, doctors can follow the AI's logic, check it, and trust it — turning the technology into a genuine partner in the search for an explanation."
     ]
   },
   {
-    "id": "ai-whale-calls",
-    "title": "Researchers Used AI to Decode Whale Calls — Then They Started Answering Back",
-    "dek": "After months of listening, the team played a phrase into the deep. A humpback paused, circled the boat, and replied.",
-    "kicker": "Animals",
-    "source": "Ocean Bright",
-    "url": "#",
-    "hoursAgo": 5,
+    "id": "ai-animal-language",
+    "title": "Scientists Just Put $17 Million Toward Teaching AI to Translate Animal Languages",
+    "dek": "The Earth Species Project is using machine learning to map the calls of whales, crows and zebras — and build the first 'dictionaries' of animal communication.",
+    "kicker": "Good AI",
+    "source": "National Geographic",
+    "url": "https://www.nationalgeographic.com/science/article/ai-animal-language-whale-calls",
+    "hoursAgo": 33,
     "glyph": "🐋",
     "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
     "tags": ["good-ai", "animals", "science"],
     "body": [
-      "After months of feeding thousands of hours of recordings into a model, researchers began to spot patterns in the clicks and calls — recurring \"phrases\" that seemed to carry meaning.",
-      "When they played one back into the water, a humpback paused, circled the research boat, and answered. The team is careful not to overclaim, but they agree it felt unmistakably like the start of a conversation."
+      "The Earth Species Project has raised $17 million to accelerate an audacious goal: using AI to decode how animals talk to each other. Its machine-learning models comb through enormous libraries of recordings, mapping patterns in the vocalizations of whales, crows and zebras.",
+      "The aim is to build 'basic dictionaries' of animal languages — a breakthrough that researchers believe could transform conservation by letting us finally understand what the animals around us are trying to say."
     ]
   },
   {
-    "id": "ai-helpline",
-    "title": "A Free AI Helpline Now Reads Every Letter, Bill and Form Aloud for People Who Struggle to Read",
-    "dek": "Call the number, hold up the page, and a calm voice explains it. Half a million people used it in the first month.",
-    "kicker": "Community",
-    "source": "Community Wire",
-    "url": "#",
-    "hoursAgo": 8,
-    "glyph": "🔊",
-    "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
-    "tags": ["good-ai", "community"],
+    "id": "solar-gas-record",
+    "title": "For the First Time Ever, the World Made More Electricity From Wind and Sun Than Gas",
+    "dek": "In April 2026, wind and solar produced 531 terawatt-hours of power worldwide — overtaking gas for the first time.",
+    "kicker": "The Planet",
+    "source": "Ember",
+    "url": "https://ember-energy.org/latest-updates/for-the-first-time-wind-and-solar-generated-more-electricity-than-gas-worldwide-in-april-2026/",
+    "hoursAgo": 6,
+    "glyph": "⚡",
+    "gradient": "linear-gradient(135deg,#FFC02E,#1E9E63)",
+    "tags": ["planet", "science"],
     "body": [
-      "Dial the free number, hold a letter or bill up to your phone's camera, and a calm voice reads it back and explains what it means in plain language — no account, no fees, no judgment.",
-      "Built for people who struggle with reading or eyesight, the service handled half a million calls in its first month, quietly turning a daily source of stress into a two-minute phone call."
+      "Energy think tank Ember crunched the numbers for April 2026 and found a genuine milestone: wind and solar generated 531 terawatt-hours of electricity that month, about 54 more than gas — the first time the two renewables out-produced gas across the whole world.",
+      "It's a single month, but it marks a line crossed. After more than two decades of record-setting growth, clean power isn't the future of the grid anymore so much as its present."
+    ]
+  },
+  {
+    "id": "rivers-rewilding",
+    "title": "Sweden Tore Down Three Dams and Set 100 Kilometers of River Free",
+    "dek": "With the dams gone, the Vindel River is flowing wild again — and crayfish and trout are already coming back.",
+    "kicker": "The Planet",
+    "source": "Rewilding Europe",
+    "url": "https://rewildingeurope.com/news/rewilding-efforts-breathe-new-life-into-european-rivers/",
+    "hoursAgo": 28,
+    "glyph": "🏞️",
+    "gradient": "linear-gradient(135deg,#1E9E63,#0C7C8C)",
+    "tags": ["planet", "animals"],
+    "body": [
+      "Across Europe, rivers are being unleashed. In the Vindel River catchment, the Rewilding Sweden team oversaw the removal of three dams, restoring 102 kilometers of free-flowing water — part of a wider push that has taken down seven dams so far, with more to come.",
+      "Nature is responding quickly: crews have returned boulders and stones to the riverbeds, and thousands of juvenile crayfish and trout have been released, bringing the rivers back to life one stretch at a time."
+    ]
+  },
+  {
+    "id": "condor-comeback",
+    "title": "From 27 Birds to More Than 500: The California Condor's Long Climb Back From the Brink",
+    "dek": "In 1987 every last condor was in captivity. Today over half of them fly free.",
+    "kicker": "Science Wins",
+    "source": "Earth.com",
+    "url": "https://www.earth.com/news/endangered-species-day-2026-celebrating-wildlife-recovery-stories/",
+    "hoursAgo": 16,
+    "glyph": "🪶",
+    "gradient": "linear-gradient(135deg,#F2A20C,#7A4BC9)",
+    "tags": ["science", "animals", "planet"],
+    "body": [
+      "In 1987, just 27 California condors remained alive, every one of them in captivity — North America's largest bird was effectively extinct in the wild. Conservationists made a desperate bet on captive breeding and careful reintroduction.",
+      "It worked. The population has since grown to more than 500 birds, with over half now soaring free over the canyons of the American West — one of the great comeback stories in the history of conservation."
+    ]
+  },
+  {
+    "id": "right-whale-calves",
+    "title": "North Atlantic Right Whales Just Had Their Best Baby Season Since 2009",
+    "dek": "Twenty-three calves were spotted this season — a hopeful sign for one of the world's most endangered whales.",
+    "kicker": "Animals",
+    "source": "NOAA Fisheries",
+    "url": "https://www.fisheries.noaa.gov/feature-story/good-news-stories-endangered-species-day-2026",
+    "hoursAgo": 11,
+    "glyph": "🐳",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#0C7C8C)",
+    "tags": ["animals", "planet"],
+    "body": [
+      "There are only a few hundred North Atlantic right whales left on Earth, so every calf counts — which is why this calving season brought such welcome news. Researchers counted 23 newborns, the highest number since 2009.",
+      "It doesn't erase the threats these whales still face, but a strong baby season is exactly the kind of momentum scientists have been hoping for, and a reminder that recovery is still possible."
+    ]
+  },
+  {
+    "id": "drone-pet-rescue",
+    "title": "A Drone Flew to the Front Line and Carried Back a Stranded Cat and Dog",
+    "dek": "With the area too dangerous for people, a rescue team sent a drone instead — and brought two animals home.",
+    "kicker": "Animals",
+    "source": "CNN",
+    "url": "https://www.cnn.com/2026/04/25/europe/ukraine-pet-rescue-drones-frontline-intl-cmd",
+    "hoursAgo": 19,
+    "glyph": "🚁",
+    "gradient": "linear-gradient(135deg,#0C7C8C,#1E9E63)",
+    "tags": ["animals"],
+    "body": [
+      "When a cat and a dog were stranded near the Ukrainian front line, the area was far too dangerous for rescuers to reach on foot. So a team turned to the technology of the moment for an act of pure tenderness: they sent in a drone.",
+      "The drone reached the animals and carried them back to safety — proof that even in the hardest places, people will go to remarkable lengths to save a frightened cat and dog."
+    ]
+  },
+  {
+    "id": "buttercup-reunion",
+    "title": "A Dog Named Buttercup Vanished a Decade Ago. A Routine Microchip Scan Just Sent Her Home.",
+    "dek": "Fifteen years old and missing for more than ten of them, Buttercup turned up at a Florida shelter — and her chip did the rest.",
+    "kicker": "Reunions",
+    "source": "UPI",
+    "url": "https://www.upi.com/Odd_News/2026/01/21/Miami-Dade-Animal-Services-buttercup-lost-dog/7191769016311",
+    "hoursAgo": 8,
+    "glyph": "🐶",
+    "gradient": "linear-gradient(135deg,#FFC02E,#FF5A36)",
+    "tags": ["reunions", "animals"],
+    "body": [
+      "When a dog arrived at Miami-Dade Animal Services, a routine microchip scan returned a name and a history that stopped staff in their tracks: Buttercup, 15 years old, reported missing more than a decade earlier.",
+      "That tiny chip, implanted years ago and never forgotten, was enough to reconnect an old dog with the family that had long since stopped expecting to see her again."
+    ]
+  },
+  {
+    "id": "caylie-boston",
+    "title": "Told She Might Never Walk Again at 18, She Just Ran the Boston Marathon",
+    "dek": "Five years after spinal surgery left her unable to move her legs, Caylie McMahon crossed the finish line in Boston.",
+    "kicker": "Comebacks",
+    "source": "Boston.com",
+    "url": "https://www.boston.com/community/boston-marathon/2026/03/31/caylie-mcmahon-lindsey-stagg-spaulding-rehabilitation/",
+    "hoursAgo": 12,
+    "glyph": "🏅",
+    "gradient": "linear-gradient(135deg,#7A4BC9,#FF5A36)",
+    "tags": ["comebacks"],
+    "body": [
+      "At 18, Caylie McMahon had emergency surgery to remove a tumor from her spine and woke up unable to feel or move her legs. Doctors told her she might never walk again. She set out to prove otherwise, one hard-won step at a time.",
+      "Five years after she relearned how to walk, Caylie ran the Boston Marathon alongside her lifelong friend Lindsey Stagg, in honor of the rehab hospital that helped her get back on her feet."
+    ]
+  },
+  {
+    "id": "bald-eagle",
+    "title": "Back From the Brink: America's Bald Eagle Soars From 500 Pairs to 14,000",
+    "dek": "Once down to fewer than 500 breeding pairs, the national bird has rebounded to roughly 14,000.",
+    "kicker": "The Planet",
+    "source": "U.S. Dept. of the Interior",
+    "url": "https://www.doi.gov/blog/endangered-species-act-celebrating-50-years-success-wildlife-conservation",
+    "hoursAgo": 22,
+    "glyph": "🦅",
+    "gradient": "linear-gradient(135deg,#7CB518,#1E9E63)",
+    "tags": ["planet", "animals", "science"],
+    "body": [
+      "Not so long ago, the bald eagle was nearly lost — down to fewer than 500 breeding pairs, battered by habitat loss, hunting and the pesticide DDT. It became one of the first creatures protected under the Endangered Species Act.",
+      "The protections, and the banning of DDT, worked spectacularly: the bald eagle has rebounded to around 14,000 breeding pairs, a national symbol pulled back from the edge and now a common sight in skies across the country."
+    ]
+  },
+  {
+    "id": "david-nel-marathon",
+    "title": "Told He'd Never Run Again After a Skiing Accident, He Just Finished the Two Oceans Marathon",
+    "dek": "Years after an accident on the slopes, David Nel crossed one of the world's toughest finish lines.",
+    "kicker": "Comebacks",
+    "source": "Good Things Guy",
+    "url": "https://www.goodthingsguy.com/sport/david-nel-runs-tom/",
+    "hoursAgo": 40,
+    "glyph": "🏃",
+    "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
+    "tags": ["comebacks"],
+    "body": [
+      "After a 2019 skiing accident, David Nel was told he'd never run again. He refused to accept that as the final word, and quietly set about rebuilding what the injury had taken.",
+      "Among the thousands of athletes who completed the 2026 Two Oceans Marathon — one of the most grueling races anywhere — was Nel, a local hero crossing a finish line he'd been told he would never reach."
+    ]
+  },
+  {
+    "id": "chicago-dog-reunion",
+    "title": "Four Years After He Slipped Away, a Chicago Family Got Their Dog Back",
+    "dek": "A lost dog and the family that never gave up were brought back together, four years on.",
+    "kicker": "Reunions",
+    "source": "CBS News",
+    "url": "https://www.cbsnews.com/news/four-years-later-chicago-family-reunited-with-lost-dog",
+    "hoursAgo": 18,
+    "glyph": "🐕",
+    "gradient": "linear-gradient(135deg,#E85D9E,#7A4BC9)",
+    "tags": ["reunions", "animals"],
+    "body": [
+      "Four years is a long time to wonder what happened to a pet who slipped out the door. For one Chicago family, the waiting finally ended when their long-lost dog was found and identified.",
+      "The reunion — equal parts disbelief and joy — was a reminder that lost doesn't always mean gone for good, and that some bonds simply wait for the chance to be picked back up."
     ]
   }
 ]
