@@ -52,6 +52,7 @@ import {
   renderArticle,
   renderAbout,
   renderTip,
+  renderProgress,
   NAV,
 } from '../lib/render.js';
 
@@ -80,16 +81,18 @@ function main() {
   const byId = indexById(articles);
   const home = loadJSON('data/home.json', { sections: [], ticker: [], rail: [], meter: {} });
   const site = loadJSON('data/site.json', { tipEndpoint: '', contactEmail: '' });
+  const progress = loadJSON('data/progress.json', { metrics: [] });
 
   rmSync(DIST, { recursive: true, force: true });
   mkdirSync(DIST, { recursive: true });
 
   // homepage (resolve any auto sections first, e.g. "Fresh Off the Wire")
   home.sections = resolveHomeSections(home, articles);
-  writeFileSync(join(DIST, 'index.html'), renderHome({ home, byId }));
+  writeFileSync(join(DIST, 'index.html'), renderHome({ home, byId, progress }));
 
   // static pages
   writeFileSync(join(DIST, 'about.html'), renderAbout());
+  writeFileSync(join(DIST, 'progress.html'), renderProgress({ progress }));
   writeFileSync(
     join(DIST, 'tip.html'),
     renderTip({ endpoint: site.tipEndpoint || '', contactEmail: site.contactEmail || '' })
@@ -123,10 +126,11 @@ function main() {
     writeFileSync(join(DIST, 'CNAME'), site.domain + '\n');
   }
 
-  const pages = 3 + NAV.length + articles.length;
+  const pages = 4 + NAV.length + articles.length;
   console.log(`Built ${pages} pages from ${articles.length} articles → dist/`);
   console.log('  index.html');
   console.log('  about.html');
+  console.log('  progress.html');
   console.log('  tip.html');
   for (const nav of NAV) {
     console.log(`  ${nav.slug}.html  (${counts[nav.slug]} ${counts[nav.slug] === 1 ? 'story' : 'stories'})`);
