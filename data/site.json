@@ -1,6 +1,7 @@
 {
   "tagline": "Good news only",
-  "_comment": "tipEndpoint: a Formspree (or compatible) POST URL to receive tips. contactEmail: a fallback address the form opens a pre-filled email to when no endpoint is set. Leave both blank for demo mode.",
+  "domain": "cloudbreak.news",
+  "_comment": "tipEndpoint: a Formspree/FormSubmit-style POST URL to receive tips. contactEmail: a fallback address the form opens a pre-filled email to when no endpoint is reachable. domain: custom GitHub Pages domain (written to dist/CNAME). Leave blank to disable.",
   "tipEndpoint": "https://formsubmit.co/ajax/ryan.leatham@gmail.com",
   "contactEmail": "ryan.leatham@gmail.com"
 }
