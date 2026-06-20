@@ -19,17 +19,52 @@
     {
       "id": "child-mortality",
       "title": "Child mortality",
-      "blurb": "Share of children who die before their fifth birthday. It has more than halved since 1990, decade after decade.",
+      "blurb": "Share of children who die before their fifth birthday. It has fallen in every decade since 1960 — from nearly 1 in 5 to fewer than 1 in 25.",
       "format": "percent",
       "betterWhen": "down",
-      "source": "UN IGME / Our World in Data",
+      "source": "UN IGME / World Bank",
       "sourceUrl": "https://ourworldindata.org/child-mortality",
       "series": [
+        { "year": 1960, "value": 18.3 },
+        { "year": 1970, "value": 14.7 },
+        { "year": 1980, "value": 12 },
         { "year": 1990, "value": 9.3 },
         { "year": 2000, "value": 7.6 },
         { "year": 2010, "value": 5.2 },
         { "year": 2020, "value": 3.8 },
         { "year": 2021, "value": 3.7 }
+      ]
+    },
+    {
+      "id": "child-deaths",
+      "title": "Child deaths per year",
+      "blurb": "The number of children under five who die each year, most from preventable causes — down by well over half since 1990.",
+      "format": "millions",
+      "betterWhen": "down",
+      "source": "UN IGME / UNICEF",
+      "sourceUrl": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+      "series": [
+        { "year": 1990, "value": 12.8 },
+        { "year": 2000, "value": 9.9 },
+        { "year": 2010, "value": 7 },
+        { "year": 2020, "value": 5 },
+        { "year": 2022, "value": 4.9 }
+      ]
+    },
+    {
+      "id": "maternal-mortality",
+      "title": "Maternal mortality",
+      "blurb": "Mothers who die from pregnancy or childbirth, per 100,000 births. Down by more than 40% since 1990 as care has reached more women.",
+      "format": "rate",
+      "unitNote": "per 100k births",
+      "betterWhen": "down",
+      "source": "WHO / UN MMEIG",
+      "sourceUrl": "https://ourworldindata.org/maternal-mortality",
+      "series": [
+        { "year": 1990, "value": 385 },
+        { "year": 2000, "value": 339 },
+        { "year": 2010, "value": 248 },
+        { "year": 2020, "value": 223 }
       ]
     },
     {
@@ -53,6 +88,22 @@
       ]
     },
     {
+      "id": "immunization",
+      "title": "Childhood immunization",
+      "blurb": "Share of infants getting the standard three-dose DTP vaccine. From just 1 in 5 in 1980 to more than 4 in 5 today.",
+      "format": "percent",
+      "betterWhen": "up",
+      "source": "WHO / UNICEF",
+      "sourceUrl": "https://ourworldindata.org/vaccination",
+      "series": [
+        { "year": 1980, "value": 20 },
+        { "year": 1990, "value": 75 },
+        { "year": 2000, "value": 72 },
+        { "year": 2010, "value": 84 },
+        { "year": 2020, "value": 83 }
+      ]
+    },
+    {
       "id": "literacy",
       "title": "Adult literacy",
       "blurb": "Share of adults who can read and write. Nearly nine in ten people can today — and the share keeps climbing.",
@@ -65,22 +116,6 @@
         { "year": 2000, "value": 81 },
         { "year": 2010, "value": 84 },
         { "year": 2020, "value": 87 }
-      ]
-    },
-    {
-      "id": "child-deaths",
-      "title": "Child deaths per year",
-      "blurb": "The number of children under five who die each year, most from preventable causes — down by well over half since 1990.",
-      "format": "millions",
-      "betterWhen": "down",
-      "source": "UN IGME / UNICEF",
-      "sourceUrl": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
-      "series": [
-        { "year": 1990, "value": 12.8 },
-        { "year": 2000, "value": 9.9 },
-        { "year": 2010, "value": 7 },
-        { "year": 2020, "value": 5 },
-        { "year": 2022, "value": 4.9 }
       ]
     },
     {
@@ -103,6 +138,7 @@
       "title": "Homicide in Western Europe",
       "blurb": "Murders per 100,000 people — the very long view. Everyday lethal violence has collapsed to a tiny fraction of medieval levels.",
       "format": "rate",
+      "unitNote": "per 100k people",
       "betterWhen": "down",
       "source": "Our World in Data (Eisner)",
       "sourceUrl": "https://ourworldindata.org/grapher/homicide-rates-across-western-europe",
