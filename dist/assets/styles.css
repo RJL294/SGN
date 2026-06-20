@@ -220,6 +220,26 @@ article.card .photo{cursor:pointer;}
 .tip-status{margin-top:16px;font-family:"Spline Sans Mono",monospace;font-size:14px;line-height:1.5;color:var(--leaf);min-height:1.2em;}
 @media(max-width:560px){.field-row{grid-template-columns:1fr;gap:0;}}
 
+/* ---------- progress dashboard ---------- */
+.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+.metric{border:2px solid var(--ink);border-radius:5px;background:var(--paper-2);padding:20px 20px 18px;display:flex;flex-direction:column;}
+.metric-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px;}
+.metric-head h3{font-family:"Archivo",sans-serif;font-weight:800;font-size:15px;letter-spacing:.02em;text-transform:uppercase;margin:0;}
+.metric-trend{font-family:"Spline Sans Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--leaf);white-space:nowrap;}
+.metric-figure{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px;}
+.metric-now{font-family:"Archivo",sans-serif;font-weight:900;font-size:40px;line-height:1;letter-spacing:-.02em;color:var(--ink);}
+.metric-now .unit{font-size:20px;font-weight:800;color:var(--ink-soft);}
+.metric-then{font-family:"Spline Sans Mono",monospace;font-size:11px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);}
+.spark{width:100%;height:auto;display:block;margin:6px 0 12px;overflow:visible;}
+.spark-area{fill:rgba(30,158,99,.12);stroke:none;}
+.spark-line{fill:none;stroke:var(--leaf);stroke-width:2.5;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round;}
+.spark-dot{fill:var(--leaf);stroke:var(--paper-2);stroke-width:2;}
+.metric-blurb{font-size:14.5px;line-height:1.45;color:#473d34;margin:0 0 12px;}
+.metric-source{font-family:"Spline Sans Mono",monospace;font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);margin:auto 0 0;}
+.metric-source a{color:var(--coral-deep);}
+.metric-source a:hover{color:var(--ink);}
+.bigpicture .bigpicture-lead{font-size:18px;line-height:1.45;color:#3a322b;max-width:60ch;margin:-8px 0 24px;}
+
 /* ---------- meter ---------- */
 .meter{background:var(--ink);color:var(--paper);margin-top:50px;padding:48px 0;}
 .meter .wrap{text-align:center;}
@@ -253,6 +273,7 @@ footer{border-top:3px solid var(--ink);margin-top:0;padding:42px 0 60px;}
   .splash .rail{padding-left:0;padding-top:26px;}
   .grid4{grid-template-columns:repeat(2,1fr);gap:24px;}
   .grid3{grid-template-columns:repeat(2,1fr);}
+  .metric-grid{grid-template-columns:repeat(2,1fr);gap:22px;}
   .stats{grid-template-columns:repeat(2,1fr);gap:30px 20px;}
   .foot-top{grid-template-columns:1fr;}
 }
@@ -260,6 +281,7 @@ footer{border-top:3px solid var(--ink);margin-top:0;padding:42px 0 60px;}
   body{font-size:16px;}
   .util .sub,.util .date{display:none;}
   .grid4,.grid3{grid-template-columns:1fr;gap:30px;}
+  .metric-grid{grid-template-columns:1fr;gap:24px;}
   .lead .dek{font-size:18px;}
   .splash{padding-top:24px;}
 }

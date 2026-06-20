@@ -1,0 +1,96 @@
+{
+  "intro": "It rarely makes the front page, because progress is slow and bad news is loud. But step back far enough and the trend is unmistakable: across the long arc, humanity is getting healthier, safer, more literate and less poor. Here's the proof — in the numbers.",
+  "metrics": [
+    {
+      "id": "extreme-poverty",
+      "title": "Extreme poverty",
+      "blurb": "Share of the world living in extreme poverty. Two centuries ago it was almost everyone; today it's fewer than one in ten.",
+      "format": "percent",
+      "betterWhen": "down",
+      "source": "Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/poverty",
+      "series": [
+        { "year": 1820, "value": 84 },
+        { "year": 1950, "value": 50 },
+        { "year": 1990, "value": 38 },
+        { "year": 2019, "value": 8.5 }
+      ]
+    },
+    {
+      "id": "child-mortality",
+      "title": "Child mortality",
+      "blurb": "Share of children who die before their fifth birthday. In 1800 it was nearly half of all children; it has fallen further in every decade since.",
+      "format": "percent",
+      "betterWhen": "down",
+      "source": "Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/child-mortality",
+      "series": [
+        { "year": 1800, "value": 43 },
+        { "year": 1950, "value": 23 },
+        { "year": 1990, "value": 9 },
+        { "year": 2021, "value": 3.7 }
+      ]
+    },
+    {
+      "id": "life-expectancy",
+      "title": "Life expectancy",
+      "blurb": "How long a newborn can expect to live, worldwide. It has more than doubled since 1800 — the average person now lives into their seventies.",
+      "format": "years",
+      "betterWhen": "up",
+      "source": "Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/life-expectancy",
+      "series": [
+        { "year": 1800, "value": 29 },
+        { "year": 1900, "value": 32 },
+        { "year": 1950, "value": 46 },
+        { "year": 2023, "value": 73 }
+      ]
+    },
+    {
+      "id": "literacy",
+      "title": "Literacy",
+      "blurb": "Share of adults who can read and write. Two centuries ago only 1 in 10 could; today nearly 9 in 10 can — more than five billion people.",
+      "format": "percent",
+      "betterWhen": "up",
+      "source": "Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/literacy",
+      "series": [
+        { "year": 1820, "value": 12 },
+        { "year": 1900, "value": 21 },
+        { "year": 1960, "value": 42 },
+        { "year": 2020, "value": 87 }
+      ]
+    },
+    {
+      "id": "child-deaths",
+      "title": "Child deaths per year",
+      "blurb": "The number of children under five who die each year — most from preventable causes. It has fallen by well over half since 1990.",
+      "format": "millions",
+      "betterWhen": "down",
+      "source": "UN IGME / UNICEF",
+      "sourceUrl": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+      "series": [
+        { "year": 1990, "value": 12.8 },
+        { "year": 2000, "value": 9.8 },
+        { "year": 2010, "value": 7.3 },
+        { "year": 2022, "value": 4.9 }
+      ]
+    },
+    {
+      "id": "homicide",
+      "title": "Homicide in Western Europe",
+      "blurb": "Murders per 100,000 people. Over seven centuries, lethal violence in everyday life has collapsed to a tiny fraction of what it once was.",
+      "format": "rate",
+      "betterWhen": "down",
+      "source": "Our World in Data (Eisner)",
+      "sourceUrl": "https://ourworldindata.org/grapher/homicide-rates-across-western-europe",
+      "series": [
+        { "year": 1300, "value": 41 },
+        { "year": 1500, "value": 25 },
+        { "year": 1700, "value": 11 },
+        { "year": 1900, "value": 3 },
+        { "year": 2020, "value": 1 }
+      ]
+    }
+  ]
+}
