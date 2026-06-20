@@ -236,7 +236,7 @@ article.card .photo{cursor:pointer;}
 .chart-line,.spark-line{fill:none;stroke:var(--leaf);stroke-width:2.5;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round;}
 .chart-dot{fill:var(--leaf);}
 .chart-dot-last,.spark-dot{fill:var(--leaf);stroke:var(--paper-2);stroke-width:2;}
-.chart-xlabel{fill:var(--ink-soft);font-family:"Spline Sans Mono",monospace;font-size:11px;}
+.chart-xlabel{fill:var(--ink-soft);font-family:"Spline Sans Mono",monospace;font-size:9.5px;}
 .chart-vlabel{fill:var(--ink);font-family:"Spline Sans Mono",monospace;font-size:9.5px;font-weight:600;}
 .metric-blurb{font-size:14.5px;line-height:1.45;color:#473d34;margin:0 0 12px;}
 .metric-source{font-family:"Spline Sans Mono",monospace;font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);margin:auto 0 0;}
