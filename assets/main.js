@@ -52,11 +52,26 @@
   var status=document.getElementById('tip-status');
   function say(msg){ if(status) status.textContent=msg; }
 
+  function openMailto(data){
+    var email=form.getAttribute('data-email')||'';
+    if(!email) return false;
+    var subject='Cloudbreak tip: '+(data.get('headline')||'good news');
+    var lines=[
+      'Headline: '+(data.get('headline')||''),
+      'Link: '+(data.get('link')||''),
+      'From: '+((data.get('name')||'')+' '+(data.get('email')||'')).trim(),
+      '',
+      (data.get('details')||'')
+    ];
+    window.location.href='mailto:'+email+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));
+    return true;
+  }
+
   form.addEventListener('submit', function(e){
     // honeypot: if a bot filled the hidden field, silently drop it
-    if(form.querySelector('[name="_gotcha"]') && form.querySelector('[name="_gotcha"]').value){
-      e.preventDefault(); return;
-    }
+    var honey=form.querySelector('[name="_honey"]');
+    if(honey && honey.value){ e.preventDefault(); return; }
+
     var headline=form.querySelector('[name="headline"]');
     if(headline && !headline.value.trim()){
       e.preventDefault(); say('Add the good news headline first. ☀'); headline.focus(); return;
@@ -67,6 +82,8 @@
     var data=new FormData(form);
 
     if(endpoint){
+      // Submit in-page — no email app. Falls back to mailto only if the
+      // request can't reach the server at all.
       e.preventDefault();
       say('Sending…');
       fetch(endpoint,{method:'POST',headers:{'Accept':'application/json'},body:data})
@@ -74,19 +91,14 @@
           if(res.ok){ form.reset(); say('Thank you! Your good news is on its way. ☀'); }
           else { say('Hmm, that didn’t go through. Please try again in a moment.'); }
         })
-        .catch(function(){ say('Network hiccup — please try again.'); });
+        .catch(function(){
+          if(openMailto(data)){ say('Connection issue — opening your email app as a backup…'); }
+          else { say('Network hiccup — please try again.'); }
+        });
     } else if(email){
       e.preventDefault();
-      var subject='Cloudbreak tip: '+(data.get('headline')||'good news');
-      var lines=[
-        'Headline: '+(data.get('headline')||''),
-        'Link: '+(data.get('link')||''),
-        'From: '+((data.get('name')||'')+' '+(data.get('email')||'')).trim(),
-        '',
-        (data.get('details')||'')
-      ];
       say('Opening your email app…');
-      window.location.href='mailto:'+email+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));
+      openMailto(data);
     } else {
       e.preventDefault();
       form.reset();

@@ -64,7 +64,7 @@
       <h1 class="page-title">Share some good news.</h1>
       <p class="page-lead">A neighbor, a rescue, a small win on your street — if it made you smile, we'd love to hear about it. The more good, the better.</p>
       
-      <form id="tip-form" class="tip-form" action="#" method="post" data-endpoint="" data-email="ryan.leatham@gmail.com" novalidate>
+      <form id="tip-form" class="tip-form" action="https://formsubmit.co/ajax/ryan.leatham@gmail.com" method="post" data-endpoint="https://formsubmit.co/ajax/ryan.leatham@gmail.com" data-email="ryan.leatham@gmail.com" novalidate>
         <div class="field">
           <label for="headline">The good news <span class="req">*</span></label>
           <input id="headline" name="headline" type="text" required placeholder="e.g. Local teen opens a free repair café">
@@ -87,7 +87,10 @@
             <input id="email" name="email" type="email" placeholder="you@example.com">
           </div>
         </div>
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="gotcha">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="gotcha">
+        <input type="hidden" name="_subject" value="New Cloudbreak tip ☀">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
         <button class="btn-lg" type="submit">Send the good news →</button>
         <p id="tip-status" class="tip-status" role="status" aria-live="polite"></p>
       </form>
