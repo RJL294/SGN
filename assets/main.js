@@ -44,6 +44,21 @@
   } else { nums.forEach(run); }
 })();
 
+// All News: reveal the timeline a few days at a time. Without JS, every day is
+// visible (progressive enhancement) — the button is hidden until JS turns it on.
+(function(){
+  var days=document.querySelectorAll('.news-day');
+  var btn=document.getElementById('load-more');
+  if(!btn || days.length===0) return;
+  var INITIAL=4, STEP=4, visible=INITIAL;
+  function apply(){
+    for(var i=0;i<days.length;i++){ days[i].style.display = i<visible ? '' : 'none'; }
+    if(visible>=days.length){ btn.hidden=true; } else { btn.hidden=false; }
+  }
+  if(days.length>INITIAL){ apply(); }
+  btn.addEventListener('click', function(){ visible+=STEP; apply(); });
+})();
+
 // tip form: submit via fetch to a configured endpoint, fall back to mailto,
 // otherwise show a friendly demo message — all without leaving the page.
 (function(){

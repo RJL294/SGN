@@ -244,6 +244,14 @@ article.card .photo{cursor:pointer;}
 .metric-source a:hover{color:var(--ink);}
 .bigpicture .bigpicture-lead{font-size:18px;line-height:1.45;color:#3a322b;max-width:60ch;margin:-8px 0 24px;}
 
+/* ---------- All News timeline ---------- */
+.news-day{padding:0 0 8px;}
+.news-date{font-family:"Archivo",sans-serif;font-weight:900;font-size:17px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink);border-bottom:2px solid var(--ink);padding-bottom:9px;margin:34px 0 22px;display:flex;align-items:center;gap:10px;}
+.news-date::before{content:"☀";color:var(--gold-deep);font-size:15px;}
+.news-day:first-of-type .news-date{margin-top:6px;}
+.news-more{text-align:center;margin:36px 0 4px;}
+.news-more .btn-lg{cursor:pointer;}
+
 /* ---------- meter ---------- */
 .meter{background:var(--ink);color:var(--paper);margin-top:50px;padding:48px 0;}
 .meter .wrap{text-align:center;}
