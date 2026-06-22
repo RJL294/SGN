@@ -73,11 +73,21 @@ network policy is skipped, and the site still builds from `articles.json`.
 The homepage's **"Fresh Off the Wire"** section auto-fills with the newest items
 not already featured elsewhere; it's hidden when there's nothing fresh to show.
 
-### Live RSS on deploy
+### Live RSS on deploy + the news archive
 
-The GitHub Pages workflow (`.github/workflows/pages.yml`) runs `npm run fetch`
-before each build, so every deploy ingests live feed items. The fetch step is
-`continue-on-error`, so a feed outage never blocks a deploy.
+The GitHub Pages workflow (`.github/workflows/pages.yml`) runs **daily** (cron)
+and on every push/dispatch. Each run:
+
+1. `npm run fetch` pulls the feeds and **accumulates** new stories into
+   `data/archive.json` (de-duplicated by link), retiring anything older than
+   ~3 months (`RETAIN_DAYS` in `scripts/fetch-feeds.js`).
+2. commits the refreshed `data/archive.json` back to the branch so it persists.
+3. rebuilds and deploys.
+
+So new stories appear at the top and older ones move down (and off the homepage)
+rather than vanishing. The full, newest-first list lives on **`news.html`
+("All News")**. The fetch step is `continue-on-error`, so a feed outage never
+blocks a deploy.
 
 ### Tip submissions
 

@@ -1,7 +1,7 @@
 node_modules/
 npm-debug.log*
 
-# Cached output of `npm run fetch` — regenerated on demand, never committed.
-data/feed-cache.json
+# Note: data/archive.json IS committed — it's the accumulating news archive
+# the daily refresh appends to (stories retire after ~3 months).
 
 .DS_Store

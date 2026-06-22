@@ -9,9 +9,9 @@ on:
   schedule:
     - cron: '0 12 * * *'
 
-# Permissions needed for the GITHUB_TOKEN to deploy to Pages.
+# Permissions needed to deploy to Pages and to commit the refreshed archive.
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -32,11 +32,27 @@ jobs:
         with:
           node-version: 24
 
-      # Pull live good-news RSS feeds. Don't fail the deploy if a feed is down —
-      # the build falls back to the curated articles.
+      # Pull live good-news RSS feeds and accumulate them into data/archive.json.
+      # Don't fail the deploy if a feed is down — the build falls back to what's
+      # already archived plus the curated articles.
       - name: Fetch live RSS feeds
         run: npm run fetch
         continue-on-error: true
+
+      # Persist the refreshed archive so stories accumulate across runs (and
+      # retire after 3 months). Only on the scheduled/manual refresh.
+      - name: Commit refreshed news archive
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "cloudbreak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/archive.json
+          if git diff --staged --quiet; then
+            echo "No archive changes."
+          else
+            git commit -m "chore: refresh news archive"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
 
       # Zero dependencies, so no install step is needed.
       - name: Build site
