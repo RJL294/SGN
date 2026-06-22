@@ -53,6 +53,7 @@ import {
   renderAbout,
   renderTip,
   renderProgress,
+  renderAllNews,
   NAV,
 } from '../lib/render.js';
 
@@ -93,6 +94,7 @@ function main() {
   // static pages
   writeFileSync(join(DIST, 'about.html'), renderAbout());
   writeFileSync(join(DIST, 'progress.html'), renderProgress({ progress }));
+  writeFileSync(join(DIST, 'news.html'), renderAllNews({ articles }));
   writeFileSync(
     join(DIST, 'tip.html'),
     renderTip({ endpoint: site.tipEndpoint || '', contactEmail: site.contactEmail || '' })
@@ -126,11 +128,12 @@ function main() {
     writeFileSync(join(DIST, 'CNAME'), site.domain + '\n');
   }
 
-  const pages = 4 + NAV.length + articles.length;
+  const pages = 5 + NAV.length + articles.length;
   console.log(`Built ${pages} pages from ${articles.length} articles → dist/`);
   console.log('  index.html');
   console.log('  about.html');
   console.log('  progress.html');
+  console.log('  news.html');
   console.log('  tip.html');
   for (const nav of NAV) {
     console.log(`  ${nav.slug}.html  (${counts[nav.slug]} ${counts[nav.slug] === 1 ? 'story' : 'stories'})`);
