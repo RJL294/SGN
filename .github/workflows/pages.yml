@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Rebuild daily so live RSS feeds are re-pulled and the site stays fresh.
+  # 12:00 UTC ≈ early morning in the US. GitHub may start cron a little late.
+  schedule:
+    - cron: '0 12 * * *'
 
 # Permissions needed for the GITHUB_TOKEN to deploy to Pages.
 permissions:
