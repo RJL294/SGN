@@ -75,7 +75,13 @@ async function main() {
       const items = parseFeed(xml).filter((i) => i.title && i.link);
       for (const item of items.slice(0, PER_FEED)) {
         const key = normUrl(item.link);
-        if (!key || byUrl.has(key)) continue;
+        if (!key) continue;
+        if (byUrl.has(key)) {
+          // backfill an image onto a story we already archived without one
+          const ex = byUrl.get(key);
+          if (!ex.image && item.image) ex.image = item.image;
+          continue;
+        }
         // skip stories that are already older than the retention window
         const pub = Date.parse(item.date);
         if (!Number.isNaN(pub) && pub < cutoff) continue;
@@ -85,6 +91,7 @@ async function main() {
           kicker: feed.kicker || 'Good News',
           source: feed.name,
           url: item.link,
+          image: item.image || '',
           date: item.date || '',
           glyph: feed.glyph,
           gradient: feed.gradient,
