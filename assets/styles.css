@@ -118,6 +118,7 @@ nav{border-top:1px solid var(--hairline);margin-top:16px;}
   color:rgba(255,255,255,.92);
 }
 .photo .glyph{font-size:64px;filter:drop-shadow(0 3px 8px rgba(0,0,0,.25));}
+.photo-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;}
 .photo::after{content:"";position:absolute;inset:0;background:radial-gradient(120% 100% at 30% 0%,rgba(255,255,255,.18),transparent 55%),linear-gradient(180deg,transparent,rgba(0,0,0,.16));}
 .lead .photo{aspect-ratio:16/9;margin-bottom:20px;}
 .lead .photo .glyph{font-size:78px;}
