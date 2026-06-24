@@ -9,29 +9,53 @@ function relatedTo(a, all, limit = 3) {
     .slice(0, limit);
 }
 
-// Resolve home sections, filling `auto: "recent"` sections with the freshest
-// articles not already featured elsewhere, and dropping any that come up empty
-// (e.g. when no live feed items are present).
-function resolveHomeSections(home, articles) {
-  const used = new Set([home.lead, ...(home.rail || [])]);
-  for (const sec of home.sections || []) {
-    if (Array.isArray(sec.ids)) sec.ids.forEach((id) => used.add(id));
-  }
-  const out = [];
-  for (const sec of home.sections || []) {
-    if (sec.auto === 'recent') {
-      const ids = articles
-        .filter((a) => !used.has(a.id))
-        .slice(0, sec.limit || 4)
-        .map((a) => a.id);
-      if (!ids.length) continue; // nothing fresh to show — skip the section
-      ids.forEach((id) => used.add(id));
-      out.push({ ...sec, ids });
-    } else {
-      out.push(sec);
+// Compose a live-newswire homepage: the lead, rail, ticker and top sections are
+// filled from the freshest stories (feed items first, then curated), so the
+// front page changes as news arrives. Curated picks land in "Editor's Picks".
+function composeHome(home, articles) {
+  const feed = articles.filter((a) => !a.curated);
+  const curated = articles.filter((a) => a.curated);
+  const pool = [...feed, ...curated]; // fresh feed first, curated after
+  const used = new Set();
+  const take = (n, tag) => {
+    const src = tag ? pool.filter((a) => a.tags.includes(tag)) : pool;
+    const out = [];
+    for (const a of src) {
+      if (used.has(a.id)) continue;
+      used.add(a.id);
+      out.push(a);
+      if (out.length >= n) break;
     }
+    return out;
+  };
+
+  const lead = take(1)[0];
+  const rail = take(3);
+  const latest = take(4);
+
+  const themed = [
+    ['Animal Kingdom', 'animals', 'animals'],
+    ['Science & Good AI', 'science', 'science'],
+    ['The Planet', 'planet', 'planet'],
+    ['Kindness & Community', 'kindness', 'kindness'],
+  ]
+    .map(([title, slug, tag]) => ({ title, slug, layout: 'grid3', lg: true, ids: take(3, tag).map((a) => a.id) }))
+    .filter((s) => s.ids.length);
+
+  const sections = [
+    { title: 'Latest Good News', slug: 'latest', layout: 'grid4', ids: latest.map((a) => a.id) },
+    ...themed,
+  ];
+  const picks = curated.filter((a) => !used.has(a.id)).slice(0, 8);
+  if (picks.length) {
+    sections.push({ title: "Editor's Picks", slug: 'editors', layout: 'grid4', ids: picks.map((a) => a.id) });
   }
-  return out;
+
+  home.lead = lead ? lead.id : null;
+  home.rail = rail.map((a) => a.id);
+  home.ticker = pool.slice(0, 6).map((a) => a.title);
+  home.sections = sections;
+  return home;
 }
 
 import {
@@ -87,8 +111,8 @@ function main() {
   rmSync(DIST, { recursive: true, force: true });
   mkdirSync(DIST, { recursive: true });
 
-  // homepage (resolve any auto sections first, e.g. "Fresh Off the Wire")
-  home.sections = resolveHomeSections(home, articles);
+  // homepage — composed live from the freshest stories (feed first, curated after)
+  composeHome(home, articles);
   writeFileSync(join(DIST, 'index.html'), renderHome({ home, byId, progress }));
 
   // static pages
