@@ -20,6 +20,22 @@ const ARCHIVE = join(ROOT, 'data', 'archive.json');
 const TIMEOUT_MS = 10000;
 const PER_FEED = 25;
 const RETAIN_DAYS = 90; // retire stories after ~3 months
+const OG_LIMIT = 60; // max article pages to fetch per run for an og:image
+
+function extractOgImage(html) {
+  if (!html) return '';
+  const head = html.slice(0, 80000); // og tags live in <head>
+  const pats = [
+    /<meta[^>]+(?:property|name)=["']og:image(?::url|:secure_url)?["'][^>]*\bcontent=["']([^"']+)["']/i,
+    /<meta[^>]+\bcontent=["']([^"']+)["'][^>]+(?:property|name)=["']og:image["']/i,
+    /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]*\bcontent=["']([^"']+)["']/i,
+  ];
+  for (const re of pats) {
+    const m = head.match(re);
+    if (m && /^https?:\/\//i.test(m[1])) return m[1].replace(/&amp;/g, '&');
+  }
+  return '';
+}
 
 function loadArchive() {
   try {
@@ -106,6 +122,29 @@ async function main() {
       console.log(`  ✗ ${feed.name} — ${err.message} (skipped)`);
     }
   }
+
+  // For stories still missing an image, fetch the article page and read its
+  // og:image (the social-share image). Capped, and persisted so each page is
+  // only ever fetched once. Many feeds (e.g. Good News Network) don't put the
+  // image in the RSS itself.
+  let ogFound = 0;
+  let ogTried = 0;
+  for (const it of byUrl.values()) {
+    if (it.image || !it.url) continue;
+    if (effTime(it) < cutoff) continue; // about to retire anyway
+    if (ogTried >= OG_LIMIT) break;
+    ogTried++;
+    try {
+      const og = extractOgImage(await fetchText(it.url));
+      if (og) {
+        it.image = og;
+        ogFound++;
+      }
+    } catch {
+      /* leave imageless — it'll fall back to the gradient */
+    }
+  }
+  if (ogTried) console.log(`  og:image — found ${ogFound}/${ogTried} from article pages`);
 
   // retire anything past the retention window, then sort newest first
   const kept = [...byUrl.values()].filter((it) => effTime(it) >= cutoff);
