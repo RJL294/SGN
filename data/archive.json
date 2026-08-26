@@ -1,5 +1,163 @@
 [
   {
+    "title": "India’s Lion Populations Increase 70%, Total Habitat by 15% Over the Last Decade",
+    "dek": "The Asiatic lion populations living in western India have increased 70% over the last decade, while their rangeland has also increased 15%. In a large protected area called the Greater Gir Landscape in Gujurat state, the",
+    "kicker": "Good News",
+    "source": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/indias-lion-populations-increase-70-total-habitat-by-15-over-the-last-decade/",
+    "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2023/03/A-family-of-Asiatic-Lions-in-Gir-National-Forest-CC-3.0.-Mayankvagadiya-e1679059557330.jpeg",
+    "date": "Wed, 26 Aug 2026 11:00:04 +0000",
+    "glyph": "☀",
+    "gradient": "linear-gradient(135deg,#FFC02E,#F2A20C)",
+    "tags": [
+      "community",
+      "kindness"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "What We’re Reading: A Wheelchair Rugged Enough for National Park Trails",
+    "dek": "Welcome back to our weekly behind-the-scenes glimpse at what’s getting our team talking. Tell us what you’ve been reading at info@reasonstobecheerful.world and we just might feature it here. Rolling vistas Utah’s Zion Na",
+    "kicker": "Community",
+    "source": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/what-were-reading-rugged-wheelchairs-national-parks/",
+    "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/08/KTVX2022LOGO.svg",
+    "date": "Wed, 26 Aug 2026 08:00:49 +0000",
+    "glyph": "🎉",
+    "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
+    "tags": [
+      "community"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "Putting slugs on the map: farmers pioneer precision crop protection",
+    "dek": "A new mapping tool pinpoints where slugs are likely to strike, helping farmers cut pesticide use while protecting crops The post Putting slugs on the map: farmers pioneer precision crop protection appeared first on Posit",
+    "kicker": "The Planet",
+    "source": "Positive News",
+    "url": "https://www.positive.news/environment/putting-slugs-on-the-map-farmers-pioneer-precision-crop-protection/",
+    "image": "https://www.positive.news/wp-content/uploads/2026/08/t-y-zQAUz4MmcZA-unsplash-scaled.jpg",
+    "date": "Wed, 26 Aug 2026 07:00:05 +0000",
+    "glyph": "🌍",
+    "gradient": "linear-gradient(135deg,#1E9E63,#7CB518)",
+    "tags": [
+      "planet",
+      "community"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "Good News in History, August 26",
+    "dek": "235 years ago today, John Fitch was granted a US patent for a boat propelled by steam power which used mechanical paddles to propel it atop lakes and rivers—an invention that revolutionized commercial transportation of b",
+    "kicker": "Good News",
+    "source": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/events060826/",
+    "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2020/08/John-Fitchs-design-for-Steam-Boat-w-paddles-pubdomain.jpg",
+    "date": "Wed, 26 Aug 2026 07:00:00 +0000",
+    "glyph": "☀",
+    "gradient": "linear-gradient(135deg,#FFC02E,#F2A20C)",
+    "tags": [
+      "community",
+      "kindness"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "London’s clean-air zone is linked to faster lung growth in children, a new study finds",
+    "dek": "BY THE OPTIMIST DAILY EDITORIAL TEAM For years, researchers knew that air pollution stunts lung development in children. What they hadn’t been able to show was whether cleaning up the air could actually change that traje",
+    "kicker": "Science Wins",
+    "source": "The Optimist Daily",
+    "url": "https://www.optimistdaily.com/2026/08/londons-clean-air-zone-is-linked-to-faster-lung-growth-in-children-a-new-study-finds/",
+    "image": "https://www.optimistdaily.com/wp-content/uploads/Depositphotos_576336494_L-1024x682.jpg",
+    "date": "Wed, 26 Aug 2026 00:00:11 +0000",
+    "glyph": "💡",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
+    "tags": [
+      "science",
+      "community"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "In France, peace and quiet is now a legal right by banning unsolicited cold calls",
+    "dek": "BY THE OPTIMIST DAILY EDITORIAL TEAM Ninety-seven percent of French people find telemarketing calls annoying. A 2025 parliamentary report called it “one of those rare issues that unites people in France.” The government ",
+    "kicker": "Science Wins",
+    "source": "The Optimist Daily",
+    "url": "https://www.optimistdaily.com/2026/08/in-france-peace-and-quiet-is-now-a-legal-right-by-banning-unsolicited-cold-calls/",
+    "image": "https://www.optimistdaily.com/wp-content/uploads/Depositphotos_837407222_L-1024x575.jpg",
+    "date": "Wed, 26 Aug 2026 00:00:03 +0000",
+    "glyph": "💡",
+    "gradient": "linear-gradient(135deg,#2B6CB0,#7A4BC9)",
+    "tags": [
+      "science",
+      "community"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "Woman Can See Again After World’s First Transplant of a Central Retina",
+    "dek": "From Turin comes a surgical world-first: the simultaneous transplant of a complete human macula, along with the cornea, sclera, and connective tissue, from one of the patient’s eyes to the other. It allowed a woman blind",
+    "kicker": "Good News",
+    "source": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/world-first-transplant-of-a-central-retina-allowed-woman-blind-from-car-crash-to-see-anew/",
+    "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Elena-with-her-dog-Joe-and-Professor-Michele-Reibaldi-credit-Ospedale-Molinette-supplied.jpg",
+    "date": "Tue, 25 Aug 2026 18:30:37 +0000",
+    "glyph": "☀",
+    "gradient": "linear-gradient(135deg,#FFC02E,#F2A20C)",
+    "tags": [
+      "community",
+      "kindness"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "US Approves First Drug That Targets Root Cause of Narcolepsy Rather Than its Symptoms",
+    "dek": "A Japanese pharma company has developed a drug that treats the root cause of a leading form of narcolepsy, and is celebrating as it becomes the first of its kind to receive American FDA approval. Narcolepsy type-1 afflic",
+    "kicker": "Good News",
+    "source": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/us-approves-first-drug-that-targets-root-cause-of-narcolepsy-rather-than-its-symptoms/",
+    "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/drowsiness-daydreaming-sleep-unsplash.jpg",
+    "date": "Tue, 25 Aug 2026 15:00:15 +0000",
+    "glyph": "☀",
+    "gradient": "linear-gradient(135deg,#FFC02E,#F2A20C)",
+    "tags": [
+      "community",
+      "kindness"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "Could Shellfish Farming Fix Florida’s Algal Bloom Problem?",
+    "dek": "It’s a sight that stops Florida boaters and beachgoers in their tracks: a thick green sludge coating the water, smelling of rotten eggs and dead fish. Ashley Smyth, a coastal biogeochemist at the University of Florida, l",
+    "kicker": "Community",
+    "source": "Reasons to be Cheerful",
+    "url": "https://reasonstobecheerful.world/shellfish-farming-florida-water-quality/",
+    "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/08/shutterstock_1168178605-scaled.jpg",
+    "date": "Tue, 25 Aug 2026 13:12:39 +0000",
+    "glyph": "🎉",
+    "gradient": "linear-gradient(135deg,#FF5A36,#FFC02E)",
+    "tags": [
+      "community"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
+    "title": "Over 3,000 Endangered Yellow-Legged Frogs and Tadpoles Unleashed to Reclaim SoCal Mountains",
+    "dek": "American amphibian lovers will be jumping for joy at the news of 3,000 frogs and tadpoles from an endangered species bred and released into their former mountain homes. San Diego Zoo Wildlife Alliance has been breeding a",
+    "kicker": "Good News",
+    "source": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/over-3000-endangered-yellow-legged-frogs-and-tadpoles-unleashed-to-reclaim-socal-mountains/",
+    "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/credit-San-Diego-Zoo-Alliance-released-to-GNN.jpg",
+    "date": "Tue, 25 Aug 2026 13:00:48 +0000",
+    "glyph": "☀",
+    "gradient": "linear-gradient(135deg,#FFC02E,#F2A20C)",
+    "tags": [
+      "community",
+      "kindness"
+    ],
+    "firstSeen": "2026-08-26T12:49:39.091Z"
+  },
+  {
     "title": "First Bluefin Tuna Caught in North Sea in 60 Years Is Sign of Healthy Ecosystem",
     "dek": "Jack Gardner couldn’t believe his eyes when he saw the behemoth hooked on his fishing line. If he and his crew aboard Dominator reeled it in, he knew it would be the greatest catch of his life and provide the equivalent ",
     "kicker": "Good News",
